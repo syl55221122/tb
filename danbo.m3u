@@ -1,0 +1,141 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="常用频道",CCTV-1
+http://vip.lqcc.xyz:8092/stream/channelid/1070537514?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://epg.112114.xyz/logo/CCTV2.png" group-title="常用频道",CCTV-2
+http://vip.lqcc.xyz:8092/stream/channelid/541032094?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://epg.112114.xyz/logo/CCTV3.png" group-title="常用频道",CCTV-3
+http://vip.lqcc.xyz:8092/stream/channelid/1985752114?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://epg.112114.xyz/logo/CCTV4.png" group-title="常用频道",CCTV-4
+http://vip.lqcc.xyz:8092/stream/channelid/41666656?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://epg.112114.xyz/logo/CCTV5.png" group-title="常用频道",CCTV-5
+http://vip.lqcc.xyz:8092/stream/channelid/1906870639?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://epg.112114.xyz/logo/CCTV6.png" group-title="常用频道",CCTV-6
+http://vip.lqcc.xyz:8092/stream/channelid/318797745?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://epg.112114.xyz/logo/CCTV7.png" group-title="常用频道",CCTV-7
+http://vip.lqcc.xyz:8092/stream/channelid/1288925335?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://epg.112114.xyz/logo/CCTV8.png" group-title="常用频道",CCTV-8
+http://vip.lqcc.xyz:8092/stream/channelid/1356794191?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://epg.112114.xyz/logo/CCTV9.png" group-title="常用频道",CCTV-9
+http://vip.lqcc.xyz:8092/stream/channelid/2137120432?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://epg.112114.xyz/logo/CCTV10.png" group-title="常用频道",CCTV-10
+http://vip.lqcc.xyz:8092/stream/channelid/1380303409?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://epg.112114.xyz/logo/CCTV11.png" group-title="常用频道",CCTV-11
+http://vip.lqcc.xyz:8092/stream/channelid/1021108622?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://epg.112114.xyz/logo/CCTV12.png" group-title="常用频道",CCTV-12
+http://vip.lqcc.xyz:8092/stream/channelid/194494593?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://epg.112114.xyz/logo/CCTV13.png" group-title="常用频道",CCTV-13
+http://vip.lqcc.xyz:8092/stream/channelid/1778173301?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://epg.112114.xyz/logo/CCTV14.png" group-title="常用频道",CCTV-14
+http://vip.lqcc.xyz:8092/stream/channelid/505345836?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://epg.112114.xyz/logo/CCTV15.png" group-title="常用频道",CCTV-15
+http://vip.lqcc.xyz:8092/stream/channelid/143840770?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://epg.112114.xyz/logo/CCTV16.png" group-title="常用频道",CCTV-16
+http://vip.lqcc.xyz:8092/stream/channelid/1713470183?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://epg.112114.xyz/logo/CCTV17.png" group-title="常用频道",CCTV-17
+http://vip.lqcc.xyz:8092/stream/channelid/1078684432?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://epg.112114.xyz/logo/CCTV5+.png" group-title="常用频道",CCTV5+
+http://vip.lqcc.xyz:8092/stream/channelid/1375350620?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="风云音乐" tvg-name="风云音乐" tvg-logo="https://epg.112114.xyz/logo/风云音乐.png" group-title="常用频道",CCTV-风云音乐
+http://vip.lqcc.xyz:8092/stream/channelid/109774215?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://epg.112114.xyz/logo/CCTV4K.png" group-title="常用频道",CCTV-4K超高清
+http://vip.lqcc.xyz:8092/stream/channelid/801906157?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://epg.112114.xyz/logo/北京卫视.png" group-title="常用频道",北京卫视-4K
+http://vip.lqcc.xyz:8092/stream/channelid/1258564202?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="广东卫视" tvg-name="广东卫视" tvg-logo="https://epg.112114.xyz/logo/广东卫视.png" group-title="常用频道",广东卫视4K
+http://vip.lqcc.xyz:8092/stream/channelid/1248069700?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="江苏卫视" tvg-name="江苏卫视" tvg-logo="https://epg.112114.xyz/logo/江苏卫视.png" group-title="常用频道",江苏卫视4K
+http://vip.lqcc.xyz:8092/stream/channelid/648679754?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="深圳卫视" tvg-name="深圳卫视" tvg-logo="https://epg.112114.xyz/logo/深圳卫视.png" group-title="常用频道",深圳卫视4K
+http://vip.lqcc.xyz:8092/stream/channelid/1066636141?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://epg.112114.xyz/logo/湖南卫视.png" group-title="常用频道",湖南卫视4K
+http://vip.lqcc.xyz:8092/stream/channelid/667140126?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" tvg-logo="https://epg.112114.xyz/logo/山东卫视.png" group-title="常用频道",山东卫视4K
+http://vip.lqcc.xyz:8092/stream/channelid/951438115?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://epg.112114.xyz/logo/浙江卫视.png" group-title="常用频道",浙江卫视4K
+http://vip.lqcc.xyz:8092/stream/channelid/113027183?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://epg.112114.xyz/logo/东方卫视.png" group-title="常用频道",东方卫视4K
+http://vip.lqcc.xyz:8092/stream/channelid/1636877857?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://epg.112114.xyz/logo/四川卫视.png" group-title="常用频道",四川卫视4K
+http://vip.lqcc.xyz:8092/stream/channelid/1991169737?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://epg.112114.xyz/logo/重温经典.png" group-title="常用频道",重温经典
+http://vip.lqcc.xyz:8092/stream/channelid/1010180490?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="石家庄新闻" tvg-name="石家庄新闻" tvg-logo="https://epg.112114.xyz/logo/石家庄新闻.png" group-title="常用频道",石家庄新闻
+http://vip.lqcc.xyz:8092/stream/channelid/2103025406?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="北京纪实" tvg-name="北京纪实" tvg-logo="https://epg.112114.xyz/logo/北京纪实.png" group-title="常用频道",北京纪实科教
+http://vip.lqcc.xyz:8092/stream/channelid/193303296?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5910/022/176/202504161629_1744788994468_H169_1080.jpg" group-title="常用频道", CHC影迷电影
+http://vip.lqcc.xyz:8092/stream/channelid/2011692132?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/554/795/202308221159_1692676692674_H169_1080.jpg" group-title="常用频道", CHC动作电影
+http://vip.lqcc.xyz:8092/stream/channelid/1668349481?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://wapx.cmvideo.cn/publish/poms/image/5500/554/911/202308221200_1692676825616_H169_1080.jpg" group-title="常用频道", CHC家庭影院
+http://vip.lqcc.xyz:8092/stream/channelid/1095244086?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="乐游" tvg-name="乐游" tvg-logo="https://epg.112114.xyz/logo/乐游.png" group-title="常用频道",乐游
+http://vip.lqcc.xyz:8092/stream/channelid/1564736929?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://epg.112114.xyz/logo/欢笑剧场.png" group-title="常用频道",欢笑剧场4K
+http://vip.lqcc.xyz:8092/stream/channelid/2133386526?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="劲爆体育" tvg-name="劲爆体育" tvg-logo="https://epg.112114.xyz/logo/都市剧场.png" group-title="常用频道",劲爆体育
+http://vip.lqcc.xyz:8092/stream/channelid/2087336006?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://epg.112114.xyz/logo/河北卫视.png" group-title="常用频道",河北卫视
+http://vip.lqcc.xyz:8092/stream/channelid/788538?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="河北收视指南" tvg-name="河北收视指南" tvg-logo="https://epg.112114.xyz/logo/河北收视指南.png" group-title="常用频道",河北收视指南
+http://vip.lqcc.xyz:8092/stream/channelid/149548584?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://epg.112114.xyz/logo/兵团卫视.png" group-title="卫视",兵团卫视
+http://vip.lqcc.xyz:8092/stream/channelid/400272807?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://epg.112114.xyz/logo/金鹰卡通.png" group-title="常用频道",金鹰卡通
+http://vip.lqcc.xyz:8092/stream/channelid/1689956711?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="陕西卫视" tvg-name="陕西卫视" tvg-logo="https://epg.112114.xyz/logo/陕西卫视.png" group-title="卫视",陕西卫视
+http://vip.lqcc.xyz:8092/stream/channelid/2033334063?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="西藏卫视" tvg-name="西藏卫视" tvg-logo="https://epg.112114.xyz/logo/西藏卫视.png" group-title="卫视",西藏卫视
+http://vip.lqcc.xyz:8092/stream/channelid/794186323?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://epg.112114.xyz/logo/新疆卫视.png" group-title="卫视",新疆卫视
+http://vip.lqcc.xyz:8092/stream/channelid/1010542088?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+#EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://epg.112114.xyz/logo/甘肃卫视.png" group-title="卫视",甘肃卫视
+http://vip.lqcc.xyz:8092/stream/channelid/944514498?auth=PrI5LXwb51dYilt30TvNYVVAgd4A&profile=pass?fcc=121.60.255.120:15970
+
+# ... (列表中其他带 auth 的单播频道类似，已全部提取，共约 50+ 个)

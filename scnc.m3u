@@ -192,6 +192,7 @@ http://112.192.73.234:8484/rtp/239.0.0.216:5140
 
 #EXTINF:-1 tvg-id="山东卫视超高清 4K50P" tvg-name="山东卫视超高清 4K50P" group-title="超高清频道",山东卫视超高清 4K50P
 http://112.192.73.234:8484/rtp/239.0.0.208:5140
+http://home2.neumantang.com:8888/rtp/239.0.0.208:5140
 
 #EXTINF:-1 tvg-id="CCTV4K 50P" tvg-name="CCTV4K 50P" group-title="超高清频道",CCTV4K 50P
 http://112.192.73.234:8484/rtp/239.0.0.214:5140
@@ -230,5 +231,4 @@ http://112.192.73.234:8484/rtp/239.0.0.184:5140
 #EXTINF:-1 tvg-id="欢笑剧场4K" tvg-name="欢笑剧场4K" group-title="超高清频道",欢笑剧场4K
 http://112.192.73.234:8484/rtp/239.0.0.201:5140
 
-#EXTINF:-1 tvg-id="欢笑剧场4K" tvg-name="欢笑剧场4K" group-title="超高清频道",欢笑剧场4K
-http://home2.neumantang.com:8888/rtp/239.0.0.208:5140
+

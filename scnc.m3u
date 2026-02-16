@@ -1,7 +1,7 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="CCTV-1高清" tvg-name="CCTV-1高清" group-title="央视频道",CCTV-1高清
 http://112.192.73.234:8484/rtp/239.0.0.10:5140
-http://home2.neumantang.com:8888/rtp/239.0.0.208:5140
+
 #EXTINF:-1 tvg-id="CCTV-2高清" tvg-name="CCTV-2高清" group-title="央视频道",CCTV-2高清
 http://112.192.73.234:8484/rtp/239.0.0.11:5140
 
@@ -230,3 +230,5 @@ http://112.192.73.234:8484/rtp/239.0.0.184:5140
 #EXTINF:-1 tvg-id="欢笑剧场4K" tvg-name="欢笑剧场4K" group-title="超高清频道",欢笑剧场4K
 http://112.192.73.234:8484/rtp/239.0.0.201:5140
 
+#EXTINF:-1 tvg-id="欢笑剧场4K" tvg-name="欢笑剧场4K" group-title="超高清频道",欢笑剧场4K
+http://home2.neumantang.com:8888/rtp/239.0.0.208:5140

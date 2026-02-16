@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-id="CCTV-1高清" tvg-name="CCTV-1高清" group-title="央视频道",CCTV-1高清
 http://112.192.73.234:8484/rtp/239.0.0.10:5140
 
-#EXTINF:-1 tvg-id="山东卫视超高清 4K50P" tvg-name="山东卫视超高清 4K50P" group-title="超高清频道",山东卫视超高清 4K50P
+#EXTINF:-1 tvg-id="CCTV-111高清" tvg-name="CCTV-111高清" group-title="央视频道",CCTV-111高清
 http://home2.neumantang.com:8888/rtp/239.0.0.208:5140
 
 #EXTINF:-1 tvg-id="CCTV-2高清" tvg-name="CCTV-2高清" group-title="央视频道",CCTV-2高清

@@ -1,127 +1,127 @@
 #EXTM3U
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000009320253000002939369/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",CCTV-1
-http://www.lijiahe.cn:8886/rtp/239.49.8.19:9614?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.19:9614?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000003592955000012435088/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",CCTV-2
-http://www.lijiahe.cn:8886/rtp/239.49.8.50:9802?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.50:9802?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000209123267/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",CCTV-3
-http://www.lijiahe.cn:8886/rtp/239.49.8.74:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.74:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000006470781000012435093/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",CCTV-4
-http://www.lijiahe.cn:8886/rtp/239.49.8.51:9806?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.51:9806?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000209123269/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",CCTV-5
-http://www.lijiahe.cn:8886/rtp/239.49.8.75:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.75:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000002242213000002930093/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",CCTV-5+
-http://www.lijiahe.cn:8886/rtp/239.49.8.18:9610?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.18:9610?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000209123271/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",CCTV-6
-http://www.lijiahe.cn:8886/rtp/239.49.8.76:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.76:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000221903146/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",CCTV-7
-http://www.lijiahe.cn:8886/rtp/239.49.0.126:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.0.126:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/http://gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000209123273/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",CCTV-8
-http://www.lijiahe.cn:8886/rtp/239.49.8.77:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.77:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000225334000012435113/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",CCTV-9
-http://www.lijiahe.cn:8886/rtp/239.49.8.53:9814?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.53:9814?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000632728000012435118/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",CCTV-10
-http://www.lijiahe.cn:8886/rtp/239.49.8.54:9818?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.54:9818?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000221903274/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",CCTV-11
-http://www.lijiahe.cn:8886/rtp/239.49.0.127:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.0.127:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000007793470000012435133/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",CCTV-12
-http://www.lijiahe.cn:8886/rtp/239.49.8.55:9822?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.55:9822?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000210913770/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",CCTV-13
-http://www.lijiahe.cn:8886/rtp/239.49.8.109:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.109:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000006921605000012435136/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",CCTV-14
-http://www.lijiahe.cn:8886/rtp/239.49.8.56:9826?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.56:9826?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/http://gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000221903392/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",CCTV-15
-http://www.lijiahe.cn:8886/rtp/239.49.0.128:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.0.128:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000214607844/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",CCTV-16
-http://www.lijiahe.cn:8886/rtp/239.49.0.109:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.0.109:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000003101164000012435106/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",CCTV-17
-http://www.lijiahe.cn:8886/rtp/239.49.8.52:9810?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.52:9810?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000230656196/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",CCTV-4K
-http://www.lijiahe.cn:8886/rtp/239.49.0.82:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.0.82:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="央视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000234408174/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",中国天气
-http://www.lijiahe.cn:8886/rtp/239.49.0.94:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.0.94:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000238866524/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}", tvg-id="29",江苏卫视 4K
-http://www.lijiahe.cn:8886/rtp/239.49.1.62:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.1.62:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000236887659/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}", tvg-id="30",北京卫视 4K
-http://www.lijiahe.cn:8886/rtp/239.49.0.253:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.0.253:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000239595557/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}", tvg-id="31",东方卫视 4K
-http://www.lijiahe.cn:8886/rtp/239.49.1.69:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.1.69:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000239595112/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}", tvg-id="28",浙江卫视 4K
-http://www.lijiahe.cn:8886/rtp/239.49.1.63:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.1.63:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000239595561/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}", tvg-id="38",山东卫视 4K
-http://www.lijiahe.cn:8886/rtp/239.49.1.71:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.1.71:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000238059928/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}", tvg-id="33",广东卫视 4K
-http://www.lijiahe.cn:8886/rtp/239.49.1.26:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.1.26:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000238060188/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}", tvg-id="34",深圳卫视 4K
-http://www.lijiahe.cn:8886/rtp/239.49.1.28:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.1.28:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000239595368/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}", tvg-id="56",四川卫视 4K
-http://www.lijiahe.cn:8886/rtp/239.49.1.65:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.1.65:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000239595494/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}", tvg-id="27",湖南卫视 4K
-http://www.lijiahe.cn:8886/rtp/239.49.1.67:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.1.67:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000003450360000008354987/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",天津卫视
-http://www.lijiahe.cn:8886/rtp/239.49.8.35:8620?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.35:8620?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000005711463000112448179/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",河北卫视
-http://www.lijiahe.cn:8886/rtp/239.49.8.114:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.114:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000208686825/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",河南卫视
-http://www.lijiahe.cn:8886/rtp/239.49.8.29:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.29:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000200182943/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",安徽卫视
-http://www.lijiahe.cn:8886/rtp/239.49.8.80:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.80:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000009524643000005242909/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",湖北卫视
-http://www.lijiahe.cn:8886/rtp/239.49.8.8:9632?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.8:9632?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000201885894/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",广西卫视
-http://www.lijiahe.cn:8886/rtp/239.49.8.10:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.10:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000007199034000112448174/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",江西卫视
-http://www.lijiahe.cn:8886/rtp/239.49.8.111:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.111:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000205417355/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",云南卫视
-http://www.lijiahe.cn:8886/rtp/239.49.0.177:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.0.177:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000005182668000016840460/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",贵州卫视
-http://www.lijiahe.cn:8886/rtp/239.49.8.49:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.49:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000004058277000012435141/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",重庆卫视
-http://www.lijiahe.cn:8886/rtp/239.49.8.57:9830?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.57:9830?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000002578204000112448175/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",东南卫视
-http://www.lijiahe.cn:8886/rtp/239.49.8.112:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.112:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000006541400000016840439/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",辽宁卫视
-http://www.lijiahe.cn:8886/rtp/239.49.8.48:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.48:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000009441308000112448176/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",吉林卫视
-http://www.lijiahe.cn:8886/rtp/239.49.8.113:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.113:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000003000000963231/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",黑龙江卫视
-http://www.lijiahe.cn:8886/rtp/239.49.8.14:9426?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.14:9426?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000203203498/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",海南卫视
-http://www.lijiahe.cn:8886/rtp/239.49.8.83:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.83:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000238840805/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",宁夏卫视
-http://www.lijiahe.cn:8886/rtp/239.49.1.60:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.1.60:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000228787558/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",甘肃卫视
-http://www.lijiahe.cn:8886/rtp/239.49.0.172:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.0.172:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000238840754/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",新疆卫视
-http://www.lijiahe.cn:8886/rtp/239.49.1.57:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.1.57:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000238840759/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",兵团卫视
-http://www.lijiahe.cn:8886/rtp/239.49.1.58:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.1.58:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000005039529000112448168/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",内蒙古卫视
-http://www.lijiahe.cn:8886/rtp/239.49.1.75:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.1.75:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000004809461000114688138/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",陕西卫视
-http://www.lijiahe.cn:8886/rtp/239.49.1.74:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.1.74:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000238836921/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",西藏卫视
-http://www.lijiahe.cn:8886/rtp/239.49.1.56:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.1.56:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000238527081/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",山西卫视
-http://www.lijiahe.cn:8886/rtp/239.49.0.67:8528?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.0.67:8528?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000230654404/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",青海卫视
-http://www.lijiahe.cn:8886/rtp/239.49.0.69:8544?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.0.69:8544?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000224975132/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",三沙卫视
-http://www.lijiahe.cn:8886/rtp/239.49.0.167:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.0.167:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="卫视", catchup="append" catchup-source="&Playseek=${(b)yyyyMMddHHmmss:utc}-${(e)yyyyMMddHHmmss:utc}",厦门卫视
 http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000237510074/index.m3u8?Playtype=1
 #EXTINF:-1 group-title="江苏", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000209332449/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",江苏教育
-http://www.lijiahe.cn:8886/rtp/239.49.8.122:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.122:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="江苏", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000209332311/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",江苏城市
-http://www.lijiahe.cn:8886/rtp/239.49.8.107:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.107:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="江苏", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000209332381/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",江苏影视
-http://www.lijiahe.cn:8886/rtp/239.49.8.118:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.118:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="江苏", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000209332385/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",江苏新闻
-http://www.lijiahe.cn:8886/rtp/239.49.8.120:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.120:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="江苏", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000209332359/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",江苏体育休闲
-http://www.lijiahe.cn:8886/rtp/239.49.8.117:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.117:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="江苏", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000209332355/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",江苏综艺
-http://www.lijiahe.cn:8886/rtp/239.49.8.108:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.108:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="江苏", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000030000000303455/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",江苏国际
-http://www.lijiahe.cn:8886/rtp/239.49.1.81:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.1.81:8000?fcc=180.100.72.185:15970
 #EXTINF:-1 group-title="江苏", catchup="default" catchup-source="http://www.lijiahe.cn:8886/http/gslb.itv.jsinfo.net:6060/00000002/01000000000000000000000209332383/index.m3u8?playseek={utc:YmdHMS}-{utcend:YmdHMS}",优漫卡通
-http://www.lijiahe.cn:8886/rtp/239.49.8.119:8000?fcc=180.100.72.185:15970
+http://www.lijiahe.cn:8886/udp/239.49.8.119:8000?fcc=180.100.72.185:15970

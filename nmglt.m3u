@@ -1,0 +1,294 @@
+内蒙古联通
+#EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
+
+// ------ 本地频道 ------
+#EXTINF:-1 group-title="本地频道" tvg-name="包头新闻综合高清" tvg-logo="https://live.fanmingming.com/tv/包头新闻综合高清.png",包头新闻综合高清
+http://kent.dzzkent.top:4022/udp/239.125.2.187:4400
+#EXTINF:-1 group-title="本地频道" tvg-name="包头生活服务高清" tvg-logo="https://live.fanmingming.com/tv/包头生活服务高清.png",包头生活服务高清
+http://kent.dzzkent.top:4022/udp/239.125.2.186:4400
+#EXTINF:-1 group-title="本地频道" tvg-name="包头经济高清" tvg-logo="https://live.fanmingming.com/tv/包头经济高清.png",包头经济高清
+http://kent.dzzkent.top:4022/udp/239.125.2.10:5000
+
+// ------ 4K超清频道 ------
+#EXTINF:-1 group-title="4K超清频道" tvg-name="爱上4K" tvg-logo="https://live.fanmingming.com/tv/爱上4K.png",爱上4K
+http://kent.dzzkent.top:4022/udp/239.125.1.24:5000
+
+// ------ 央视频道 ------
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png",CCTV1
+http://kent.dzzkent.top:4022/udp/239.125.2.66:4120
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV2" tvg-logo="https://live.fanmingming.com/tv/CCTV2.png",CCTV2
+http://kent.dzzkent.top:4022/udp/239.125.2.65:4120
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV3" tvg-logo="https://live.fanmingming.com/tv/CCTV3.png",CCTV3
+http://kent.dzzkent.top:4022/udp/239.125.2.52:4120
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV4" tvg-logo="https://live.fanmingming.com/tv/CCTV4.png",CCTV4
+http://kent.dzzkent.top:4022/udp/239.125.2.64:4120
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV5" tvg-logo="https://live.fanmingming.com/tv/CCTV5.png",CCTV5
+http://kent.dzzkent.top:4022/udp/239.125.2.54:4120
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV5+" tvg-logo="https://live.fanmingming.com/tv/CCTV5+.png",CCTV5+
+http://kent.dzzkent.top:4022/udp/239.125.1.57:5000
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV6" tvg-logo="https://live.fanmingming.com/tv/CCTV6.png",CCTV6
+http://kent.dzzkent.top:4022/udp/239.125.2.56:4120
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV7" tvg-logo="https://live.fanmingming.com/tv/CCTV7.png",CCTV7
+http://kent.dzzkent.top:4022/udp/239.125.2.63:4120
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV8" tvg-logo="https://live.fanmingming.com/tv/CCTV8.png",CCTV8
+http://kent.dzzkent.top:4022/udp/239.125.2.58:4120
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV9" tvg-logo="https://live.fanmingming.com/tv/CCTV9.png",CCTV9
+http://kent.dzzkent.top:4022/udp/239.125.2.62:4120
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV10" tvg-logo="https://live.fanmingming.com/tv/CCTV10.png",CCTV10
+http://kent.dzzkent.top:4022/udp/239.125.2.61:4120
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV11" tvg-logo="https://live.fanmingming.com/tv/CCTV11.png",CCTV11
+http://kent.dzzkent.top:4022/udp/239.125.1.101:4120
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV12" tvg-logo="https://live.fanmingming.com/tv/CCTV12.png",CCTV12
+http://kent.dzzkent.top:4022/udp/239.125.2.60:4120
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV13" tvg-logo="https://live.fanmingming.com/tv/CCTV13.png",CCTV13
+http://kent.dzzkent.top:4022/udp/239.125.2.100:8003
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV14" tvg-logo="https://live.fanmingming.com/tv/CCTV14.png",CCTV14
+http://kent.dzzkent.top:4022/udp/239.125.2.59:4120
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV15" tvg-logo="https://live.fanmingming.com/tv/CCTV15.png",CCTV15
+http://kent.dzzkent.top:4022/udp/239.125.1.102:4120
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV17" tvg-logo="https://live.fanmingming.com/tv/CCTV17.png",CCTV17
+http://kent.dzzkent.top:4022/udp/239.125.1.100:5000
+#EXTINF:-1 group-title="央视频道" tvg-name="CGTN" tvg-logo="https://live.fanmingming.com/tv/CGTN.png",CGTN
+http://kent.dzzkent.top:4022/udp/234.1.3.22:5000
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV-1" tvg-logo="https://live.fanmingming.com/tv/CCTV-1.png",CCTV-1
+http://kent.dzzkent.top:4022/udp/234.1.3.11:5000
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV-2" tvg-logo="https://live.fanmingming.com/tv/CCTV-2.png",CCTV-2
+http://kent.dzzkent.top:4022/udp/234.1.3.12:5000
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV-4" tvg-logo="https://live.fanmingming.com/tv/CCTV-4.png",CCTV-4
+http://kent.dzzkent.top:4022/udp/234.1.3.13:5000
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV-7" tvg-logo="https://live.fanmingming.com/tv/CCTV-7.png",CCTV-7
+http://kent.dzzkent.top:4022/udp/234.1.3.14:5000
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV-9" tvg-logo="https://live.fanmingming.com/tv/CCTV-9.png",CCTV-9
+http://kent.dzzkent.top:4022/udp/234.1.3.15:5000
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV-10" tvg-logo="https://live.fanmingming.com/tv/CCTV-10.png",CCTV-10
+http://kent.dzzkent.top:4022/udp/234.1.3.16:5000
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV-12" tvg-logo="https://live.fanmingming.com/tv/CCTV-12.png",CCTV-12
+http://kent.dzzkent.top:4022/udp/234.1.3.18:5000
+#EXTINF:-1 group-title="央视频道" tvg-name="CCTV-14" tvg-logo="https://live.fanmingming.com/tv/CCTV-14.png",CCTV-14
+http://kent.dzzkent.top:4022/udp/234.1.3.20:5000
+
+// ------ 卫视频道 ------
+#EXTINF:-1 group-title="卫视频道" tvg-name="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png",安徽卫视
+http://kent.dzzkent.top:4022/udp/239.125.2.78:4120
+#EXTINF:-1 group-title="卫视频道" tvg-name="北京卫视" tvg-logo="https://live.fanmingming.com/tv/北京卫视.png",北京卫视
+http://kent.dzzkent.top:4022/udp/239.125.2.73:4120
+#EXTINF:-1 group-title="卫视频道" tvg-name="重庆卫视" tvg-logo="https://live.fanmingming.com/tv/重庆卫视.png",重庆卫视
+http://kent.dzzkent.top:4022/udp/239.125.2.102:4130
+#EXTINF:-1 group-title="卫视频道" tvg-name="东方卫视" tvg-logo="https://live.fanmingming.com/tv/东方卫视.png",东方卫视
+http://kent.dzzkent.top:4022/udp/239.125.2.82:4120
+#EXTINF:-1 group-title="卫视频道" tvg-name="东南卫视" tvg-logo="https://live.fanmingming.com/tv/东南卫视.png",东南卫视
+http://kent.dzzkent.top:4022/udp/239.125.2.77:4120
+#EXTINF:-1 group-title="卫视频道" tvg-name="甘肃卫视" tvg-logo="https://live.fanmingming.com/tv/甘肃卫视.png",甘肃卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.39:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png",广东卫视
+http://kent.dzzkent.top:4022/udp/239.125.2.71:4120
+#EXTINF:-1 group-title="卫视频道" tvg-name="广西卫视" tvg-logo="https://live.fanmingming.com/tv/广西卫视.png",广西卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.52:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="贵州卫视" tvg-logo="https://live.fanmingming.com/tv/贵州卫视.png",贵州卫视
+http://kent.dzzkent.top:4022/udp/239.125.2.80:4120
+#EXTINF:-1 group-title="卫视频道" tvg-name="海南卫视" tvg-logo="https://live.fanmingming.com/tv/海南卫视.png",海南卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.53:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="河北卫视" tvg-logo="https://live.fanmingming.com/tv/河北卫视.png",河北卫视
+http://kent.dzzkent.top:4022/udp/239.125.2.70:4120
+#EXTINF:-1 group-title="卫视频道" tvg-name="河南卫视" tvg-logo="https://live.fanmingming.com/tv/河南卫视.png",河南卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.28:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="黑龙江卫视" tvg-logo="https://live.fanmingming.com/tv/黑龙江卫视.png",黑龙江卫视
+http://kent.dzzkent.top:4022/udp/239.125.2.83:4120
+#EXTINF:-1 group-title="卫视频道" tvg-name="湖北卫视" tvg-logo="https://live.fanmingming.com/tv/湖北卫视.png",湖北卫视
+http://kent.dzzkent.top:4022/udp/239.125.2.74:4120
+#EXTINF:-1 group-title="卫视频道" tvg-name="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png",湖南卫视
+http://kent.dzzkent.top:4022/udp/239.125.2.67:4120
+#EXTINF:-1 group-title="卫视频道" tvg-name="吉林卫视" tvg-logo="https://live.fanmingming.com/tv/吉林卫视.png",吉林卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.42:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="江苏卫视" tvg-logo="https://live.fanmingming.com/tv/江苏卫视.png",江苏卫视
+http://kent.dzzkent.top:4022/udp/239.125.2.69:4120
+#EXTINF:-1 group-title="卫视频道" tvg-name="江西卫视" tvg-logo="https://live.fanmingming.com/tv/江西卫视.png",江西卫视
+http://kent.dzzkent.top:4022/udp/239.125.2.101:4129
+#EXTINF:-1 group-title="卫视频道" tvg-name="辽宁卫视" tvg-logo="https://live.fanmingming.com/tv/辽宁卫视.png",辽宁卫视
+http://kent.dzzkent.top:4022/udp/239.125.2.72:4120
+#EXTINF:-1 group-title="卫视频道" tvg-name="内蒙古卫视" tvg-logo="https://live.fanmingming.com/tv/内蒙古卫视.png",内蒙古卫视
+http://kent.dzzkent.top:4022/udp/239.125.1.59:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="宁夏卫视" tvg-logo="https://live.fanmingming.com/tv/宁夏卫视.png",宁夏卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.27:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="青海卫视" tvg-logo="https://live.fanmingming.com/tv/青海卫视.png",青海卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.38:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="山东卫视" tvg-logo="https://live.fanmingming.com/tv/山东卫视.png",山东卫视
+http://kent.dzzkent.top:4022/udp/239.125.2.75:4120
+#EXTINF:-1 group-title="卫视频道" tvg-name="山西卫视" tvg-logo="https://live.fanmingming.com/tv/山西卫视.png",山西卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.36:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="陕西卫视" tvg-logo="https://live.fanmingming.com/tv/陕西卫视.png",陕西卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.31:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="深圳卫视" tvg-logo="https://live.fanmingming.com/tv/深圳卫视.png",深圳卫视
+http://kent.dzzkent.top:4022/udp/239.125.2.76:4120
+#EXTINF:-1 group-title="卫视频道" tvg-name="四川卫视" tvg-logo="https://live.fanmingming.com/tv/四川卫视.png",四川卫视
+http://kent.dzzkent.top:4022/udp/239.125.2.79:4120
+#EXTINF:-1 group-title="卫视频道" tvg-name="天津卫视" tvg-logo="https://live.fanmingming.com/tv/天津卫视.png",天津卫视
+http://kent.dzzkent.top:4022/udp/239.125.2.81:4120
+#EXTINF:-1 group-title="卫视频道" tvg-name="西藏卫视" tvg-logo="https://live.fanmingming.com/tv/西藏卫视.png",西藏卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.35:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="新疆卫视" tvg-logo="https://live.fanmingming.com/tv/新疆卫视.png",新疆卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.34:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="云南卫视" tvg-logo="https://live.fanmingming.com/tv/云南卫视.png",云南卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.23:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="浙江卫视" tvg-logo="https://live.fanmingming.com/tv/浙江卫视.png",浙江卫视
+http://kent.dzzkent.top:4022/udp/239.125.2.68:4120
+#EXTINF:-1 group-title="卫视频道" tvg-name="内蒙古蒙古语卫视高清" tvg-logo="https://live.fanmingming.com/tv/内蒙古蒙古语卫视高清.png",内蒙古蒙古语卫视高清
+http://kent.dzzkent.top:4022/udp/239.125.1.66:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="兵团卫视" tvg-logo="https://live.fanmingming.com/tv/兵团卫视.png",兵团卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.60:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="内蒙古卫视" tvg-logo="https://live.fanmingming.com/tv/内蒙古卫视.png",内蒙古卫视
+http://kent.dzzkent.top:4022/udp/239.125.1.58:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png",湖南卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.44:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="江苏卫视" tvg-logo="https://live.fanmingming.com/tv/江苏卫视.png",江苏卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.46:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="深圳卫视" tvg-logo="https://live.fanmingming.com/tv/深圳卫视.png",深圳卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.54:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="黑龙江卫视" tvg-logo="https://live.fanmingming.com/tv/黑龙江卫视.png",黑龙江卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.41:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="四川卫视" tvg-logo="https://live.fanmingming.com/tv/四川卫视.png",四川卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.49:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="东南卫视" tvg-logo="https://live.fanmingming.com/tv/东南卫视.png",东南卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.24:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="辽宁卫视" tvg-logo="https://live.fanmingming.com/tv/辽宁卫视.png",辽宁卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.25:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png",广东卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.29:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="湖北卫视" tvg-logo="https://live.fanmingming.com/tv/湖北卫视.png",湖北卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.30:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="山东卫视" tvg-logo="https://live.fanmingming.com/tv/山东卫视.png",山东卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.33:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="贵州卫视" tvg-logo="https://live.fanmingming.com/tv/贵州卫视.png",贵州卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.26:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="天津卫视" tvg-logo="https://live.fanmingming.com/tv/天津卫视.png",天津卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.32:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="东方卫视" tvg-logo="https://live.fanmingming.com/tv/东方卫视.png",东方卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.40:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="北京卫视" tvg-logo="https://live.fanmingming.com/tv/北京卫视.png",北京卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.43:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png",安徽卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.45:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="江西卫视" tvg-logo="https://live.fanmingming.com/tv/江西卫视.png",江西卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.47:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="重庆卫视" tvg-logo="https://live.fanmingming.com/tv/重庆卫视.png",重庆卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.51:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="河北卫视" tvg-logo="https://live.fanmingming.com/tv/河北卫视.png",河北卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.50:5000
+#EXTINF:-1 group-title="卫视频道" tvg-name="浙江卫视" tvg-logo="https://live.fanmingming.com/tv/浙江卫视.png",浙江卫视
+http://kent.dzzkent.top:4022/udp/234.1.3.48:5000
+
+// ------ 数字付费 ------
+#EXTINF:-1 group-title="数字付费" tvg-name="IPTV谍战剧场" tvg-logo="https://live.fanmingming.com/tv/IPTV谍战剧场.png",IPTV谍战剧场
+http://kent.dzzkent.top:4022/udp/234.1.3.139:5000
+#EXTINF:-1 group-title="数字付费" tvg-name="IPTV3+" tvg-logo="https://live.fanmingming.com/tv/IPTV3+.png",IPTV3+
+http://kent.dzzkent.top:4022/udp/234.1.3.127:5000
+#EXTINF:-1 group-title="数字付费" tvg-name="IPTV5+" tvg-logo="https://live.fanmingming.com/tv/IPTV5+.png",IPTV5+
+http://kent.dzzkent.top:4022/udp/234.1.3.128:5000
+#EXTINF:-1 group-title="数字付费" tvg-name="IPTV6+" tvg-logo="https://live.fanmingming.com/tv/IPTV6+.png",IPTV6+
+http://kent.dzzkent.top:4022/udp/234.1.3.129:5000
+#EXTINF:-1 group-title="数字付费" tvg-name="IPTV8+" tvg-logo="https://live.fanmingming.com/tv/IPTV8+.png",IPTV8+
+http://kent.dzzkent.top:4022/udp/234.1.3.130:5000
+#EXTINF:-1 group-title="数字付费" tvg-name="IPTV野外" tvg-logo="https://live.fanmingming.com/tv/IPTV野外.png",IPTV野外
+http://kent.dzzkent.top:4022/udp/234.1.3.126:5000
+#EXTINF:-1 group-title="数字付费" tvg-name="足球" tvg-logo="https://live.fanmingming.com/tv/足球.png",足球
+http://kent.dzzkent.top:4022/udp/239.125.1.51:5000
+#EXTINF:-1 group-title="数字付费" tvg-name="古装剧场" tvg-logo="https://live.fanmingming.com/tv/古装剧场.png",古装剧场
+http://kent.dzzkent.top:4022/udp/234.1.3.135:5000
+#EXTINF:-1 group-title="数字付费" tvg-name="武侠剧场" tvg-logo="https://live.fanmingming.com/tv/武侠剧场.png",武侠剧场
+http://kent.dzzkent.top:4022/udp/234.1.3.138:5000
+#EXTINF:-1 group-title="数字付费" tvg-name="全纪实" tvg-logo="https://live.fanmingming.com/tv/全纪实.png",全纪实
+http://kent.dzzkent.top:4022/udp/239.125.1.38:5000
+#EXTINF:-1 group-title="数字付费" tvg-name="动漫秀场" tvg-logo="https://live.fanmingming.com/tv/动漫秀场.png",动漫秀场
+http://kent.dzzkent.top:4022/udp/239.125.1.31:5000
+#EXTINF:-1 group-title="数字付费" tvg-name="都市剧场" tvg-logo="https://live.fanmingming.com/tv/都市剧场.png",都市剧场
+http://kent.dzzkent.top:4022/udp/234.1.3.140:5000
+#EXTINF:-1 group-title="数字付费" tvg-name="极速汽车" tvg-logo="https://live.fanmingming.com/tv/极速汽车.png",极速汽车
+http://kent.dzzkent.top:4022/udp/239.125.1.34:5000
+#EXTINF:-1 group-title="数字付费" tvg-name="IPTV少儿动画" tvg-logo="https://live.fanmingming.com/tv/IPTV少儿动画.png",IPTV少儿动画
+http://kent.dzzkent.top:4022/udp/234.1.3.145:5000
+#EXTINF:-1 group-title="数字付费" tvg-name="魅力时尚" tvg-logo="https://live.fanmingming.com/tv/魅力时尚.png",魅力时尚
+http://kent.dzzkent.top:4022/udp/239.125.1.27:5000
+#EXTINF:-1 group-title="数字付费" tvg-name="游戏风云" tvg-logo="https://live.fanmingming.com/tv/游戏风云.png",游戏风云
+http://kent.dzzkent.top:4022/udp/239.125.1.33:5000
+#EXTINF:-1 group-title="数字付费" tvg-name="IPTV法治" tvg-logo="https://live.fanmingming.com/tv/IPTV法治.png",IPTV法治
+http://kent.dzzkent.top:4022/udp/239.125.1.56:5000
+#EXTINF:-1 group-title="数字付费" tvg-name="IPTV相声小品" tvg-logo="https://live.fanmingming.com/tv/IPTV相声小品.png",IPTV相声小品
+http://kent.dzzkent.top:4022/udp/239.125.1.30:5000
+#EXTINF:-1 group-title="数字付费" tvg-name="IPTV5+高清" tvg-logo="https://live.fanmingming.com/tv/IPTV5+高清.png",IPTV5+高清
+http://kent.dzzkent.top:4022/udp/239.125.1.25:5000
+
+// ------ 其他频道 ------
+#EXTINF:-1 group-title="其他频道" tvg-name="CETV1" tvg-logo="https://live.fanmingming.com/tv/CETV1.png",CETV1
+http://kent.dzzkent.top:4022/udp/234.1.3.61:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="CETV2" tvg-logo="https://live.fanmingming.com/tv/CETV2.png",CETV2
+http://kent.dzzkent.top:4022/udp/239.125.1.29:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="CETV4" tvg-logo="https://live.fanmingming.com/tv/CETV4.png",CETV4
+http://kent.dzzkent.top:4022/udp/239.125.1.110:4120
+#EXTINF:-1 group-title="其他频道" tvg-name="内蒙古经济生活高清" tvg-logo="https://live.fanmingming.com/tv/内蒙古经济生活高清.png",内蒙古经济生活高清
+http://kent.dzzkent.top:4022/udp/239.125.1.74:4120
+#EXTINF:-1 group-title="其他频道" tvg-name="内蒙古文体娱乐高清" tvg-logo="https://live.fanmingming.com/tv/内蒙古文体娱乐高清.png",内蒙古文体娱乐高清
+http://kent.dzzkent.top:4022/udp/239.125.1.72:4120
+#EXTINF:-1 group-title="其他频道" tvg-name="内蒙古农牧频道高清" tvg-logo="https://live.fanmingming.com/tv/内蒙古农牧频道高清.png",内蒙古农牧频道高清
+http://kent.dzzkent.top:4022/udp/239.125.1.73:4120
+#EXTINF:-1 group-title="其他频道" tvg-name="内蒙古新闻综合高清" tvg-logo="https://live.fanmingming.com/tv/内蒙古新闻综合高清.png",内蒙古新闻综合高清
+http://kent.dzzkent.top:4022/udp/239.125.1.70:4120
+#EXTINF:-1 group-title="其他频道" tvg-name="内蒙古蒙语文化高清" tvg-logo="https://live.fanmingming.com/tv/内蒙古蒙语文化高清.png",内蒙古蒙语文化高清
+http://kent.dzzkent.top:4022/udp/239.125.1.71:4120
+#EXTINF:-1 group-title="其他频道" tvg-name="内蒙古少儿高清" tvg-logo="https://live.fanmingming.com/tv/内蒙古少儿高清.png",内蒙古少儿高清
+http://kent.dzzkent.top:4022/udp/239.125.1.69:4120
+#EXTINF:-1 group-title="其他频道" tvg-name="卡酷动画" tvg-logo="https://live.fanmingming.com/tv/卡酷动画.png",卡酷动画
+http://kent.dzzkent.top:4022/udp/234.1.3.55:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="熊猫频道" tvg-logo="https://live.fanmingming.com/tv/熊猫频道.png",熊猫频道
+http://kent.dzzkent.top:4022/udp/239.125.1.23:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="城市剧场" tvg-logo="https://live.fanmingming.com/tv/城市剧场.png",城市剧场
+http://kent.dzzkent.top:4022/udp/234.1.3.136:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="音乐现场" tvg-logo="https://live.fanmingming.com/tv/音乐现场.png",音乐现场
+http://kent.dzzkent.top:4022/udp/239.125.1.40:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="星影" tvg-logo="https://live.fanmingming.com/tv/星影.png",星影
+http://kent.dzzkent.top:4022/udp/239.125.1.55:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="动作影院" tvg-logo="https://live.fanmingming.com/tv/动作影院.png",动作影院
+http://kent.dzzkent.top:4022/udp/239.125.1.53:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="地理" tvg-logo="https://live.fanmingming.com/tv/地理.png",地理
+http://kent.dzzkent.top:4022/udp/239.125.1.41:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="军旅剧场" tvg-logo="https://live.fanmingming.com/tv/军旅剧场.png",军旅剧场
+http://kent.dzzkent.top:4022/udp/234.1.3.144:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="金鹰卡通" tvg-logo="https://live.fanmingming.com/tv/金鹰卡通.png",金鹰卡通
+http://kent.dzzkent.top:4022/udp/234.1.3.56:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="山东教育" tvg-logo="https://live.fanmingming.com/tv/山东教育.png",山东教育
+http://kent.dzzkent.top:4022/udp/234.1.3.69:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="精选" tvg-logo="https://live.fanmingming.com/tv/精选.png",精选
+http://kent.dzzkent.top:4022/udp/239.125.1.43:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="动画" tvg-logo="https://live.fanmingming.com/tv/动画.png",动画
+http://kent.dzzkent.top:4022/udp/239.125.1.45:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="七彩戏剧" tvg-logo="https://live.fanmingming.com/tv/七彩戏剧.png",七彩戏剧
+http://kent.dzzkent.top:4022/udp/239.125.1.32:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="金色频道" tvg-logo="https://live.fanmingming.com/tv/金色频道.png",金色频道
+http://kent.dzzkent.top:4022/udp/239.125.1.39:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="喜剧影院" tvg-logo="https://live.fanmingming.com/tv/喜剧影院.png",喜剧影院
+http://kent.dzzkent.top:4022/udp/239.125.1.52:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="早教" tvg-logo="https://live.fanmingming.com/tv/早教.png",早教
+http://kent.dzzkent.top:4022/udp/239.125.1.44:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="家庭影院" tvg-logo="https://live.fanmingming.com/tv/家庭影院.png",家庭影院
+http://kent.dzzkent.top:4022/udp/239.125.1.54:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="好学生" tvg-logo="https://live.fanmingming.com/tv/好学生.png",好学生
+http://kent.dzzkent.top:4022/udp/239.125.1.17:4120
+#EXTINF:-1 group-title="其他频道" tvg-name="爱生活" tvg-logo="https://live.fanmingming.com/tv/爱生活.png",爱生活
+http://kent.dzzkent.top:4022/udp/239.125.1.50:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="东方财经" tvg-logo="https://live.fanmingming.com/tv/东方财经.png",东方财经
+http://kent.dzzkent.top:4022/udp/239.125.1.36:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="光影" tvg-logo="https://live.fanmingming.com/tv/光影.png",光影
+http://kent.dzzkent.top:4022/udp/239.125.1.49:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="热播剧场" tvg-logo="https://live.fanmingming.com/tv/热播剧场.png",热播剧场
+http://kent.dzzkent.top:4022/udp/234.1.3.143:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="经典电影" tvg-logo="https://live.fanmingming.com/tv/经典电影.png",经典电影
+http://kent.dzzkent.top:4022/udp/239.125.1.28:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="墨宝" tvg-logo="https://live.fanmingming.com/tv/墨宝.png",墨宝
+http://kent.dzzkent.top:4022/udp/239.125.1.48:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="美人" tvg-logo="https://live.fanmingming.com/tv/美人.png",美人
+http://kent.dzzkent.top:4022/udp/239.125.44.9:4120
+#EXTINF:-1 group-title="其他频道" tvg-name="鉴赏" tvg-logo="https://live.fanmingming.com/tv/鉴赏.png",鉴赏
+http://kent.dzzkent.top:4022/udp/239.125.1.47:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="聚鲨环球" tvg-logo="https://live.fanmingming.com/tv/聚鲨环球.png",聚鲨环球
+http://kent.dzzkent.top:4022/udp/234.1.3.184:5000
+#EXTINF:-1 group-title="其他频道" tvg-name="金鹰纪实高清" tvg-logo="https://live.fanmingming.com/tv/金鹰纪实高清.png",金鹰纪实高清
+http://kent.dzzkent.top:4022/udp/239.125.2.106:4134

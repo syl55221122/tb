@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPTV SUITE v9.3</title>
+    <style>
+        /* 保持 v9 暗夜极光 UI 不变 */
+        :root {
+            --bg-color: #0f172a;
+            --panel-bg: rgba(30, 41, 59, 0.7);
+            --editor-bg: #0b1120;
+            --text-main: #e2e8f0;
+            --text-dim: #94a3b8;
+            --accent-gradient: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            --border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        * { box-sizing: border-box; }
+        
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background-color: var(--bg-color);
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(59, 130, 246, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(139, 92, 246, 0.15) 0px, transparent 50%);
+            color: var(--text-main);
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            overflow: hidden;
+            font-size: 13px;
+        }
+
+        .app-container { display: flex; width: 100%; height: 100%; }
+
+        /* 左侧 */
+        .sidebar {
+            width: 360px;
+            background: var(--panel-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-right: var(--border);
+            display: flex;
+            flex-direction: column;
+            z-index: 10;
+        }
+
+        .brand-area { padding: 20px; border-bottom: var(--border); }
+        .app-title { font-size: 18px; font-weight: 800; margin: 0; background: var(--accent-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .app-subtitle { font-size: 10px; color: var(--text-dim); margin-top: 4px; text-transform: uppercase; letter-spacing: 1px; }
+
+        .scroll-content { flex: 1; overflow-y: auto; padding: 20px; }
+
+        .control-group { margin-bottom: 24px; }
+        .label-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+        .label-title { font-weight: 600; color: #fff; font-size: 12px; }
+
+        input, textarea, select {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #fff;
+            padding: 10px 12px;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 12px;
+        }
+        input:focus, textarea:focus, select:focus { outline: none; border-color: #8b5cf6; background: rgba(0,0,0,0.5); }
+        
+        .tags-container { display: flex; flex-wrap: wrap; gap: 4px; background: rgba(0,0,0,0.2); padding: 10px; border-radius: 8px; max-height: 100px; overflow-y: auto; }
+        .tag { font-size: 10px; padding: 2px 6px; background: rgba(59, 130, 246, 0.2); color: #93c5fd; border-radius: 4px; }
+        .tag.brand { background: rgba(139, 92, 246, 0.2); color: #c4b5fd; }
+
+        .action-area { padding: 20px; background: rgba(15, 23, 42, 0.8); border-top: var(--border); }
+        .btn { width: 100%; padding: 12px; border: none; border-radius: 8px; font-weight: 600; cursor: pointer; font-size: 13px; margin-bottom: 10px; transition: 0.2s; }
+        .btn-primary { background: var(--accent-gradient); color: white; }
+        .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3); }
+        .btn-secondary { background: transparent; border: 1px solid rgba(255,255,255,0.2); color: var(--text-dim); }
+        .btn-secondary:hover { border-color: rgba(255,255,255,0.4); color: white; }
+
+        /* 右侧 */
+        .main-content { flex: 1; display: flex; flex-direction: column; background: rgba(0,0,0,0.2); }
+        .editor-container { flex: 1; display: flex; gap: 1px; background: #1e293b; }
+        .editor-pane { flex: 1; display: flex; flex-direction: column; background: var(--bg-color); }
+        .pane-header { padding: 12px 20px; background: rgba(30, 41, 59, 0.5); border-bottom: var(--border); font-weight: 600; font-size: 12px; color: var(--text-dim); display: flex; justify-content: space-between; }
+        .code-editor { flex: 1; background: var(--editor-bg); border: none; color: #cbd5e1; padding: 20px; font-family: monospace; font-size: 13px; line-height: 1.6; resize: none; outline: none; }
+        .action-link { cursor: pointer; color: #3b82f6; }
+    </style>
+</head>
+<body>
+
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="brand-area">
+                <h1 class="app-title">IPTV SUITE</h1>
+                <div class="app-subtitle">v9.3 Minimalist</div>
+            </div>
+
+            <div class="scroll-content">
+                <div class="control-group">
+                    <div class="label-row"><span class="label-title">📍 本地化</span></div>
+                    <input type="text" id="myProv" value="" placeholder="输入省份 (如: 浙江)">
+                    <textarea id="myCity" style="margin-top:8px; height: 50px;" placeholder="关注的县市 (空格隔开)&#10;例: 长沙 浏阳 宁乡"></textarea>
+                </div>
+
+                <div class="control-group">
+                    <div class="label-row"><span class="label-title">⚙️ EPG 节目单</span></div>
+                    <select id="epgSelect" onchange="updateEpgInput()">
+                        <option value="https://live.fanmingming.com/e.xml">范明明 EPG (推荐)</option>
+                        <option value="http://epg.51zmt.com:8000/e.xml">51zmt EPG</option>
+                        <option value="https://epg.112114.xyz/pp.xml">112114 EPG</option>
+                    </select>
+                    <input type="hidden" id="epgUrl" value="https://live.fanmingming.com/e.xml">
+                    <div style="margin-top:5px; font-size:11px; color:#64748b;">* 已自动配置台标 Logo 地址</div>
+                </div>
+
+                <div class="control-group">
+                    <div class="label-row"><span class="label-title">⛔ 关键词黑名单</span></div>
+                    <textarea id="blacklist" style="height:60px;">购物,理财,测试,轮播,演示,示例,指南,导视,生活范,家庭大屏幕,卖药,重温,仅供,失效,更多</textarea>
+                </div>
+
+                <div class="control-group" style="opacity: 0.8;">
+                    <div class="label-row"><span class="label-title">📡 内置频道库 (自动识别)</span></div>
+                    <div class="tags-container" id="digitalPreview"></div>
+                </div>
+            </div>
+
+            <div class="action-area">
+                <button class="btn btn-primary" onclick="process()">⚡ 执行整理</button>
+                <button class="btn btn-secondary" onclick="downloadM3u()">💾 下载 M3U</button>
+                <div id="status" style="text-align:center; margin-top:10px; font-size:11px; color:#64748b;">就绪</div>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <div class="editor-container">
+                <div class="editor-pane">
+                    <div class="pane-header"><span>📥 输入源 (TXT)</span><span class="action-link" onclick="document.getElementById('inputTxt').value=''">清空</span></div>
+                    <textarea id="inputTxt" class="code-editor" placeholder="在此粘贴..."></textarea>
+                </div>
+                <div class="editor-pane">
+                    <div class="pane-header"><span>📤 结果 (M3U)</span><span class="action-link" onclick="copyResult()">复制</span></div>
+                    <textarea id="outputRes" class="code-editor" readonly placeholder="结果将显示在这里..."></textarea>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // 配置数据
+        const DIGITAL_BRANDS = ["CHC", "DOX", "NewTV", "iHOT", "SiTV", "IPTV", "天华", "北广", "彩亿", "星元", "求索", "风云", "第一剧场", "怀旧剧场", "世界地理", "央广健康", "劲爆体育", "极速汽车", "全纪实", "我是K歌王"];
+        const DIGITAL_TITLES = ["高尔夫", "台球", "网球", "足球", "赛车", "汽摩", "先锋乒羽", "四海钓鱼", "快乐垂钓", "欧洲足球", "动感英超", "武术世界", "电竞天堂", "超级玩家", "竞G场", "王者荣耀", "环宇电影", "热门剧场", "谍战剧场", "星光院线", "港剧风云", "亚洲电影", "精彩影视", "古装剧场", "欧美电影", "武侠剧场", "黑莓电影", "大片", "都市剧场", "欢笑剧场", "金牌剧场", "重温经典", "梨园", "戏曲", "兵器", "文物", "围棋", "置业", "宠物", "书画", "摄影", "茶频道", "环球旅游", "美食", "靓妆", "时尚", "动漫", "游戏", "收藏天下", "卫生健康", "早期教育", "幼儿教育", "留学世界", "国学", "英语教室", "老年福", "法律服务", "证券服务", "房产频道", "中华特产", "发现之旅", "优优宝贝", "宝宝巴士", "数码时代", "新视觉", "老故事", "中学生", "乐游", "新视觉", "书法", "金色学堂", "法制天地", "财富天下"];
+        const CITY_DB = {
+            "北京":"北京频道","上海":"上海频道","天津":"天津频道","重庆":"重庆频道", "长沙":"湖南省内","株洲":"湖南省内","湘潭":"湖南省内","衡阳":"湖南省内","邵阳":"湖南省内","岳阳":"湖南省内","常德":"湖南省内","张家界":"湖南省内","益阳":"湖南省内","郴州":"湖南省内","永州":"湖南省内","怀化":"湖南省内","娄底":"湖南省内","湘西":"湖南省内", "广州":"广东省内","深圳":"广东省内","珠海":"广东省内","汕头":"广东省内","佛山":"广东省内","韶关":"广东省内","湛江":"广东省内","肇庆":"广东省内","江门":"广东省内","茂名":"广东省内","惠州":"广东省内","梅州":"广东省内","汕尾":"广东省内","河源":"广东省内","阳江":"广东省内","清远":"广东省内","东莞":"广东省内","中山":"广东省内","潮州":"广东省内","揭阳":"广东省内","云浮":"广东省内", "杭州":"浙江省内","宁波":"浙江省内","温州":"浙江省内","嘉兴":"浙江省内","湖州":"浙江省内","绍兴":"浙江省内","金华":"浙江省内","衢州":"浙江省内","舟山":"浙江省内","台州":"浙江省内","丽水":"浙江省内", "南京":"江苏省内","无锡":"江苏省内","徐州":"江苏省内","常州":"江苏省内","苏州":"江苏省内","南通":"江苏省内","连云港":"江苏省内","淮安":"江苏省内","盐城":"江苏省内","扬州":"江苏省内","镇江":"江苏省内","泰州":"江苏省内","宿迁":"江苏省内", "济南":"山东省内","青岛":"山东省内","淄博":"山东省内","枣庄":"山东省内","东营":"山东省内","烟台":"山东省内","潍坊":"山东省内","济宁":"山东省内","泰安":"山东省内","威海":"山东省内","日照":"山东省内","临沂":"山东省内","德州":"山东省内","聊城":"山东省内","滨州":"山东省内","菏泽":"山东省内", "武汉":"湖北省内","黄石":"湖北省内","十堰":"湖北省内","宜昌":"湖北省内","襄阳":"湖北省内","鄂州":"湖北省内","荆门":"湖北省内","孝感":"湖北省内","荆州":"湖北省内","黄冈":"湖北省内","咸宁":"湖北省内","随州":"湖北省内","恩施":"湖北省内", "郑州":"河南省内","开封":"河南省内","洛阳":"河南省内","平顶山":"河南省内","安阳":"河南省内","鹤壁":"河南省内","新乡":"河南省内","焦作":"河南省内","濮阳":"河南省内","许昌":"河南省内","漯河":"河南省内","三门峡":"河南省内","南阳":"河南省内","商丘":"河南省内","信阳":"河南省内","周口":"河南省内","驻马店":"河南省内", "石家庄":"河北省内","唐山":"河北省内","秦皇岛":"河北省内","邯郸":"河北省内","邢台":"河北省内","保定":"河北省内","张家口":"河北省内","承德":"河北省内","沧州":"河北省内","廊坊":"河北省内","衡水":"河北省内", "太原":"山西省内","大同":"山西省内","阳泉":"山西省内","长治":"山西省内","晋城":"山西省内","朔州":"山西省内","晋中":"山西省内","运城":"山西省内","忻州":"山西省内","临汾":"山西省内","吕梁":"山西省内", "沈阳":"辽宁省内","大连":"辽宁省内","鞍山":"辽宁省内","抚顺":"辽宁省内","本溪":"辽宁省内","丹东":"辽宁省内","锦州":"辽宁省内","营口":"辽宁省内","阜新":"辽宁省内","辽阳":"辽宁省内","盘锦":"辽宁省内","铁岭":"辽宁省内","朝阳":"辽宁省内","葫芦岛":"辽宁省内", "长春":"吉林省内","吉林":"吉林省内","四平":"吉林省内","辽源":"吉林省内","通化":"吉林省内","白山":"吉林省内","松原":"吉林省内","白城":"吉林省内","延边":"吉林省内", "哈尔滨":"黑龙江省内","齐齐哈尔":"黑龙江省内","鸡西":"黑龙江省内","鹤岗":"黑龙江省内","双鸭山":"黑龙江省内","大庆":"黑龙江省内","伊春":"黑龙江省内","佳木斯":"黑龙江省内","七台河":"黑龙江省内","牡丹江":"黑龙江省内","黑河":"黑龙江省内","绥化":"黑龙江省内","大兴安岭":"黑龙江省内", "合肥":"安徽省内","芜湖":"安徽省内","蚌埠":"安徽省内","淮南":"安徽省内","马鞍山":"安徽省内","淮北":"安徽省内","铜陵":"安徽省内","安庆":"安徽省内","黄山":"安徽省内","滁州":"安徽省内","阜阳":"安徽省内","宿州":"安徽省内","六安":"安徽省内","亳州":"安徽省内","池州":"安徽省内","宣城":"安徽省内", "福州":"福建省内","厦门":"福建省内","莆田":"福建省内","三明":"福建省内","泉州":"福建省内","漳州":"福建省内","南平":"福建省内","龙岩":"福建省内","宁德":"福建省内", "南昌":"江西省内","景德镇":"江西省内","萍乡":"江西省内","九江":"江西省内","新余":"江西省内","鹰潭":"江西省内","赣州":"江西省内","吉安":"江西省内","宜春":"江西省内","抚州":"江西省内","上饶":"江西省内", "成都":"四川省内","自贡":"四川省内","攀枝花":"四川省内","泸州":"四川省内","德阳":"四川省内","绵阳":"四川省内","广元":"四川省内","遂宁":"四川省内","内江":"四川省内","乐山":"四川省内","南充":"四川省内","眉山":"四川省内","宜宾":"四川省内","广安":"四川省内","达州":"四川省内","雅安":"四川省内","巴中":"四川省内","资阳":"四川省内","阿坝":"四川省内","甘孜":"四川省内","凉山":"四川省内", "贵阳":"贵州省内","六盘水":"贵州省内","遵义":"贵州省内","安顺":"贵州省内","毕节":"贵州省内","铜仁":"贵州省内","黔西南":"贵州省内","黔东南":"贵州省内","黔南":"贵州省内", "昆明":"云南省内","曲靖":"云南省内","玉溪":"云南省内","保山":"云南省内","昭通":"云南省内","丽江":"云南省内","普洱":"云南省内","临沧":"云南省内","楚雄":"云南省内","红河":"云南省内","文山":"云南省内","西双版纳":"云南省内","大理":"云南省内","德宏":"云南省内","怒江":"云南省内","迪庆":"云南省内", "西安":"陕西省内","铜川":"陕西省内","宝鸡":"陕西省内","咸阳":"陕西省内","渭南":"陕西省内","延安":"陕西省内","汉中":"陕西省内","榆林":"陕西省内","安康":"陕西省内","商洛":"陕西省内", "兰州":"甘肃省内","嘉峪关":"甘肃省内","金昌":"甘肃省内","白银":"甘肃省内","天水":"甘肃省内","武威":"甘肃省内","张掖":"甘肃省内","平凉":"甘肃省内","酒泉":"甘肃省内","庆阳":"甘肃省内","定西":"甘肃省内","陇南":"甘肃省内","临夏":"甘肃省内","甘南":"甘肃省内", "西宁":"青海省内","海东":"青海省内","海北":"青海省内","黄南":"青海省内","海南":"青海省内","果洛":"青海省内","玉树":"青海省内","海西":"青海省内", "南宁":"广西省内","柳州":"广西省内","桂林":"广西省内","梧州":"广西省内","北海":"广西省内","防城港":"广西省内","钦州":"广西省内","贵港":"广西省内","玉林":"广西省内","百色":"广西省内","贺州":"广西省内","河池":"广西省内","来宾":"广西省内","崇左":"广西省内", "海口":"海南省内","三亚":"海南省内","三沙":"海南省内","儋州":"海南省内", "呼和浩特":"内蒙古省内","包头":"内蒙古省内","乌海":"内蒙古省内","赤峰":"内蒙古省内","通辽":"内蒙古省内","鄂尔多斯":"内蒙古省内","呼伦贝尔":"内蒙古省内","巴彦淖尔":"内蒙古省内","乌兰察布":"内蒙古省内","兴安盟":"内蒙古省内","锡林郭勒":"内蒙古省内","阿拉善":"内蒙古省内", "银川":"宁夏省内","石嘴山":"宁夏省内","吴忠":"宁夏省内","固原":"宁夏省内","中卫":"宁夏省内", "乌鲁木齐":"新疆省内","克拉玛依":"新疆省内","吐鲁番":"新疆省内","哈密":"新疆省内","昌吉":"新疆省内","博尔塔拉":"新疆省内","巴音郭楞":"新疆省内","阿克苏":"新疆省内","克孜勒苏":"新疆省内","喀什":"新疆省内","和田":"新疆省内","伊犁":"新疆省内","塔城":"新疆省内","阿勒泰":"新疆省内", "拉萨":"西藏省内","日喀则":"西藏省内","昌都":"西藏省内","林芝":"西藏省内","山南":"西藏省内","那曲":"西藏省内","阿里":"西藏省内"
+        };
+
+        window.onload = function() {
+            document.getElementById('digitalPreview').innerHTML = DIGITAL_BRANDS.map(b=>`<span class="tag brand">${b}</span>`).join('') + DIGITAL_TITLES.map(t=>`<span class="tag">${t}</span>`).join('');
+        };
+
+        function updateEpgInput() {
+            document.getElementById('epgUrl').value = document.getElementById('epgSelect').value;
+        }
+
+        function process() {
+            const input = document.getElementById('inputTxt').value;
+            const myProv = document.getElementById('myProv').value.trim().replace("省","");
+            const myCities = document.getElementById('myCity').value.split(/[\s,]+/).filter(s=>s);
+            const blacklist = document.getElementById('blacklist').value.split(/[,，\n]/).map(s=>s.trim()).filter(s=>s);
+            const epgUrl = document.getElementById('epgUrl').value;
+            
+            // 🟥 隐藏的逻辑：默认全开启合并
+            const mergeOuter = true; 
+            const mergeDistrict = true;
+            // 🟥 隐藏的逻辑：默认 Logo 地址
+            const logoBase = "https://live.fanmingming.com/tv/";
+
+            const MY_PROV_GROUP = myProv ? (myProv + "省内") : "本地频道";
+            const grouped = new Map();
+            const seen = new Set();
+            let count = 0;
+
+            input.split('\n').forEach(line => {
+                line = line.trim();
+                if(!line || line.includes('#genre#')) return;
+                const parts = line.split(/,|，/);
+                if(parts.length < 2) return;
+                
+                let name = parts[0].trim();
+                let url = parts[1].trim();
+
+                if(blacklist.some(k => name.includes(k))) return;
+
+                // 移除常规清晰度标识，保留频道名
+                let cleanName = name.replace(/\[.*?\]/g, '').replace(/(HD|FHD|HEVC)/ig, '').trim();
+                let group = "其他频道";
+                let matched = false;
+
+                // =========== 0. 新增：4K/8K 超清检测 (优先级最高) ===========
+                if (cleanName.match(/4K|8K/i)) {
+                    group = "4K超清频道";
+                    matched = true;
+                }
+
+                // 1. 数字付费
+                if (!matched) {
+                    for (let brand of DIGITAL_BRANDS) if (cleanName.toUpperCase().includes(brand.toUpperCase())) { group = "数字付费"; matched = true; break; }
+                    if (!matched) for (let title of DIGITAL_TITLES) if (cleanName.includes(title)) { group = "数字付费"; matched = true; break; }
+                }
+
+                // 2. 央视/卫视
+                if (!matched) {
+                    if (cleanName.match(/CCTV|CGTN/i)) { group = "央视频道"; matched = true; }
+                    else if (cleanName.includes("卫视")) { group = "卫视频道"; matched = true; }
+                    else if (cleanName.match(/凤凰|TVB|翡翠|明珠|澳视/)) { group = "港澳台"; matched = true; }
+                }
+
+                // 3. 省市定位
+                if (!matched) {
+                    if (myCities.some(c => cleanName.includes(c))) { group = MY_PROV_GROUP; matched = true; }
+                    else if (myProv && cleanName.includes(myProv)) { group = MY_PROV_GROUP; matched = true; }
+                    else {
+                        for (let city in CITY_DB) {
+                            if (cleanName.includes(city)) {
+                                const provGroup = CITY_DB[city];
+                                if (provGroup.includes(myProv)) { 
+                                    group = MY_PROV_GROUP; 
+                                } else { 
+                                    group = mergeOuter ? "其他频道" : "外省频道"; 
+                                }
+                                matched = true;
+                                break;
+                            }
+                        }
+                    }
+                }
+
+                // 4. 区县/地方台
+                if (!matched) {
+                    if (cleanName.match(/融媒|台|综合|公共|文旅|科教|生活|教育|民生/)) {
+                        group = mergeDistrict ? "其他频道" : "区县地方";
+                    }
+                }
+
+                if (seen.has(url)) return;
+                seen.add(url);
+
+                if (!grouped.has(group)) grouped.set(group, []);
+                let logo = logoBase.endsWith('/') ? `${logoBase}${cleanName}.png` : `${logoBase}/${cleanName}.png`;
+                grouped.get(group).push({name: cleanName, url, logo});
+                count++;
+            });
+
+            // 输出 - 在这里将 "4K超清频道" 加入排序
+            let result = `#EXTM3U x-tvg-url="${epgUrl}"\n`;
+            
+            // =========== 更新排序列表 ===========
+            const order = [MY_PROV_GROUP, "4K超清频道", "央视频道", "卫视频道", "数字付费", "港澳台", "区县地方", "外省频道", "其他频道"];
+            
+            const allGroups = [...order];
+            for (let g of grouped.keys()) if(!allGroups.includes(g)) allGroups.push(g);
+
+            allGroups.forEach(g => {
+                if(grouped.has(g)) {
+                    const list = grouped.get(g);
+                    if(list.length > 0) {
+                        result += `\n// ------ ${g} ------\n`; // 可选：加上注释分隔方便看
+                        list.forEach(item => {
+                            result += `#EXTINF:-1 group-title="${g}" tvg-name="${item.name}" tvg-logo="${item.logo}",${item.name}\n${item.url}\n`;
+                        });
+                    }
+                }
+            });
+
+            document.getElementById('outputRes').value = result;
+            document.getElementById('status').innerText = `✅ 整理完成 | 频道数: ${count}`;
+        }
+
+        function copyResult() {
+            document.getElementById('outputRes').select();
+            document.execCommand('copy');
+            document.getElementById('status').innerText = "已复制";
+        }
+        function downloadM3u() {
+            const content = document.getElementById('outputRes').value;
+            const a = document.createElement("a");
+            a.href = URL.createObjectURL(new Blob([content], {type: "text/plain"}));
+            a.download = "playlist.m3u";
+            a.click();
+        }
+    </script>
+</body>
+</html>

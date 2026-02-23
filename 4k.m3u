@@ -24,7 +24,7 @@ http://home.yulei.online:9999/rtp/226.0.2.155:9172  陕西联通
 #EXTINF:-1 group-title="其他频道" tvg-name="黑龙江联通" tvg-logo="https://live.fanmingming.com/tv/黑龙江联通.png",黑龙江联通
 http://gogo655.cn:8888/rtp/229.58.190.212:5000     黑龙江联通
 #EXTINF:-1 group-title="其他频道" tvg-name="江苏电信" tvg-logo="https://live.fanmingming.com/tv/江苏电信.png",江苏电信
-http://www.sclvip.top:5566/rtp/239.49.0.253:8000?fcc=180.100.72.185:15970  江苏电信
+http://lt.joygala.cn:8118/rtp/239.49.0.253:8000?fcc=180.100.72.185:15970  江苏电信
 #EXTINF:-1 group-title="其他频道" tvg-name="山东电信" tvg-logo="https://live.fanmingming.com/tv/山东电信.png",山东电信
 http://www.niuin.com:4022/rtp/239.21.2.172:5002?fcc=150.138.8.132:8027  山东电信eac3
 #EXTINF:-1 group-title="其他频道" tvg-name="河南联通" tvg-logo="https://live.fanmingming.com/tv/河南联通.png",河南联通

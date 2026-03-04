@@ -2,13 +2,13 @@
 #EXTINF:-1 tvg-id="34" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="主力",深圳卫视4K
 http://154.17.19.44:7088/rtp/239.11.0.195:1025
 #EXTINF:-1 tvg-id="33" tvg-name="广东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangdong.png" group-title="主力",广东卫视4K
-http://154.17.19.44:7088/rtp/239.11.0.194:1025
+http://154.17.19.44:7088/rtp/239.11.0.193:1025
 #EXTINF:-1 tvg-id="27" tvg-name="湖南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="主力",湖南卫视4K
 http://154.17.19.44:7088/rtp/239.11.0.200:1025
 #EXTINF:-1 tvg-id="29" tvg-name="江苏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangsu.png" group-title="主力",江苏卫视4K
 http://154.17.19.44:7088/rtp/239.11.0.201:1025
 #EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="主力",北京卫视4k
-http://154.17.19.44:7088/rtp/239.11.0.191:1025
+http://154.17.19.44:7088/rtp/239.11.0.192:1025
 #EXTINF:-1 tvg-id="31" tvg-name="东方卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongfang.png" group-title="主力",东方卫视4K
 http://154.17.19.44:7088/rtp/239.11.0.203:1025
 #EXTINF:-1 tvg-id="28" tvg-name="浙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/zhejiang.png" group-title="主力",浙江卫视4K

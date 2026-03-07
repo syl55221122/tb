@@ -1,36 +1,36 @@
 #EXTM3U
-# 生成时间: 2026/3/7 16:13:35
-# 原始行数: 13
+# 生成时间: 2026/3/7 16:44:44
+# 原始行数: 16
 
 #EXTINF:-1 tvg-name="北京联通",北京联通
-http://ccj.gohome.link:55556/rtp/239.3.1.129:8008
+http://ccj.gohome.link:55556/rtp/239.3.1.129:8008         5.48 Mbps
 #EXTINF:-1 tvg-name="重庆联通",重庆联通
-http://211.158.154.252:8008/rtp/225.0.4.74:7980
+http://211.158.154.252:8008/rtp/225.0.4.74:7980           2.17 Mbps
 #EXTINF:-1 tvg-name="安徽电信",安徽电信
-http://www.191919.xyz:8888/rtp/238.1.78.166:7200
+http://www.191919.xyz:8888/rtp/238.1.78.166:7200          0.74 Mbps
 #EXTINF:-1 tvg-name="重庆电信",重庆电信
-http://hook.msen.site:8000/rtp/235.254.198.51:1480
+http://hook.msen.site:8000/rtp/235.254.198.51:1480        1.27 Mbps
 #EXTINF:-1 tvg-name="浙江电信",浙江电信
-http://173.255.208.64:8080/rtp/233.50.201.118:5140
+http://173.255.208.64:8080/rtp/233.50.201.118:5140        2.39 Mbps
 #EXTINF:-1 tvg-name="湖北联通",湖北联通
-http://50.116.23.122:2077/rtp/228.0.0.1:6108
+http://50.116.23.122:2077/rtp/228.0.0.1:6108              2.13 Mbps
 #EXTINF:-1 tvg-name="山西联通",山西联通
-http://nas.home.yulei.online:9999/rtp/226.0.2.153:9136
+http://nas.home.yulei.online:9999/rtp/226.0.2.153:9136    4.99 Mbps
 #EXTINF:-1 tvg-name="天津联通",天津联通
-http://home.techua.net:8000/rtp/225.1.1.120:5002
+http://home.techua.net:8000/rtp/225.1.1.120:5002          6.09 Mbps
 #EXTINF:-1 tvg-name="陕西电信",陕西电信
-http://124.116.170.138:8081/rtp/239.109.205.118:8880
+http://124.116.170.138:8081/rtp/239.109.205.118:8880      4.56 Mbps
 #EXTINF:-1 tvg-name="北京联通",北京联通
-http://115.171.17.193:9000/rtp/239.3.1.129:8008
+http://115.171.17.193:9000/rtp/239.3.1.129:8008           5.92 Mbps
 #EXTINF:-1 tvg-name="河北电信",河北电信
-http://106.116.240.244:9999/rtp/239.254.200.45:8008
+http://106.116.240.244:9999/rtp/239.254.200.45:8008       2.04 Mbps
 #EXTINF:-1 tvg-name="重庆联通",重庆联通
-http://tf.zhangliang.cc:8012/rtp/225.0.4.74:7980
+http://tf.zhangliang.cc:8012/rtp/225.0.4.74:7980          5.53 Mbps
 #EXTINF:-1 tvg-name="浙江电信",浙江电信
-http://www.1eb.top:8888/rtp/233.50.201.118:5140
+http://www.1eb.top:8888/rtp/233.50.201.118:5140           5.37 Mbps
 #EXTINF:-1 tvg-name="湖南电信",湖南电信
-http://alist.0000505.xyz:8888/rtp/239.76.253.151:9000   4.96 Mbps
+http://alist.0000505.xyz:8888/rtp/239.76.253.151:9000     4.96 Mbps
 #EXTINF:-1 tvg-name="湖北联通",湖北联通
-http://172.233.228.88:5001/rtp/228.0.0.1:6108   2.52 Mbps
+http://172.233.228.88:5001/rtp/228.0.0.1:6108             2.52 Mbps
 #EXTINF:-1 tvg-name="北京联通",北京联通
-http://123.117.161.44:8118/rtp/239.3.1.129:8008   5.51 Mbps
+http://123.117.161.44:8118/rtp/239.3.1.129:8008           5.51 Mbps

@@ -1,0 +1,31 @@
+#EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
+
+// ------ 本地频道 ------
+#EXTINF:-1 group-title="本地频道" tvg-name="北京联通" tvg-logo="https://live.fanmingming.com/tv/北京联通.png",北京联通
+http://ccj.gohome.link:55556/rtp/239.3.1.129:8008
+#EXTINF:-1 group-title="本地频道" tvg-name="重庆联通" tvg-logo="https://live.fanmingming.com/tv/重庆联通.png",重庆联通
+http://211.158.154.252:8008/rtp/225.0.4.74:7980
+#EXTINF:-1 group-title="本地频道" tvg-name="重庆电信" tvg-logo="https://live.fanmingming.com/tv/重庆电信.png",重庆电信
+http://hook.msen.site:8000/rtp/235.254.198.51:1480
+#EXTINF:-1 group-title="本地频道" tvg-name="天津联通" tvg-logo="https://live.fanmingming.com/tv/天津联通.png",天津联通
+http://home.techua.net:8000/rtp/225.1.1.120:5002
+#EXTINF:-1 group-title="本地频道" tvg-name="北京联通" tvg-logo="https://live.fanmingming.com/tv/北京联通.png",北京联通
+http://115.171.17.193:9000/rtp/239.3.1.129:8008
+#EXTINF:-1 group-title="本地频道" tvg-name="重庆联通" tvg-logo="https://live.fanmingming.com/tv/重庆联通.png",重庆联通
+http://tf.zhangliang.cc:8012/rtp/225.0.4.74:7980
+
+// ------ 其他频道 ------
+#EXTINF:-1 group-title="其他频道" tvg-name="安徽电信" tvg-logo="https://live.fanmingming.com/tv/安徽电信.png",安徽电信
+http://www.191919.xyz:8888/rtp/238.1.78.166:7200
+#EXTINF:-1 group-title="其他频道" tvg-name="浙江电信" tvg-logo="https://live.fanmingming.com/tv/浙江电信.png",浙江电信
+http://173.255.208.64:8080/rtp/233.50.201.118:5140
+#EXTINF:-1 group-title="其他频道" tvg-name="湖北联通" tvg-logo="https://live.fanmingming.com/tv/湖北联通.png",湖北联通
+http://50.116.23.122:2077/rtp/228.0.0.1:6108
+#EXTINF:-1 group-title="其他频道" tvg-name="山西联通" tvg-logo="https://live.fanmingming.com/tv/山西联通.png",山西联通
+http://nas.home.yulei.online:9999/rtp/226.0.2.153:9136
+#EXTINF:-1 group-title="其他频道" tvg-name="陕西电信" tvg-logo="https://live.fanmingming.com/tv/陕西电信.png",陕西电信
+http://124.116.170.138:8081/rtp/239.109.205.118:8880
+#EXTINF:-1 group-title="其他频道" tvg-name="河北电信" tvg-logo="https://live.fanmingming.com/tv/河北电信.png",河北电信
+http://106.116.240.244:9999/rtp/239.254.200.45:8008
+#EXTINF:-1 group-title="其他频道" tvg-name="浙江电信" tvg-logo="https://live.fanmingming.com/tv/浙江电信.png",浙江电信
+http://www.1eb.top:8888/rtp/233.50.201.118:5140

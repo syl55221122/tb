@@ -22,21 +22,11 @@ http://202.105.239.77:8188/rtp/239.77.0.86:5146
 http://43.138.5.183:10013/rtp/239.253.92.154:6011
 #EXTINF:-1 tvg-name="北京联通",北京联通
 http://naslmd.myqnapcloud.com:4022/rtp/239.3.1.129:8008
-#EXTINF:-1 tvg-name="湖北电信",湖北电信
-http://141.148.189.176:5555/rtp/239.254.96.96:8550
-#EXTINF:-1 tvg-name="山西联通",山西联通
-http://60.223.72.61:8001/rtp/226.0.2.153:9136
-#EXTINF:-1 tvg-name="北京联通",北京联通
-http://a.it7888.cn:8888/rtp/239.3.1.129:8008
-#EXTINF:-1 tvg-name="重庆联通",重庆联通
-http://tf.zhangliang.cc:8012/rtp/225.0.4.74:7980
-#EXTINF:-1 tvg-name="海南电信",海南电信
-http://112.66.231.18:554/rtp/239.253.64.120:5140
-#EXTINF:-1 tvg-name="北京联通",北京联通
-http://bt.it7888.cn:8888/rtp/239.3.1.129:8008
+
+
+
 #EXTINF:-1 tvg-name="广东移动",广东移动
 http://www.vjlzcd.com:8000/rtp/239.10.0.114:1025
 #EXTINF:-1 tvg-name="北京联通",北京联通
 http://bmc.it7888.cn:8888/rtp/239.3.1.129:8008
-#EXTINF:-1 tvg-name="山西联通",山西联通
-http://60.223.72.35:8001/rtp/226.0.2.153:9136
+

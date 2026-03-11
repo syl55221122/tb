@@ -48,3 +48,9 @@ http://buffalogt.ignorelist.com:8888/rtp/239.3.1.129:8008
 http://lorinchang.dscloud.me:4023/rtp/239.3.1.129:8008
 
 
+
+#EXTINF:-1 tvg-name="江苏电信",江苏电信
+http://121.239.237.200:4022/rtp/239.49.8.19:9614
+#EXTINF:-1 tvg-name="辽宁联通",辽宁联通
+http://124.92.149.98:4022/rtp/232.0.0.27:1234
+

@@ -34,6 +34,17 @@ http://bmc.it7888.cn:8888/rtp/239.3.1.129:8008
 http://114.242.12.3:4022/rtp/239.3.1.129:8008
 
 
-
+#EXTINF:-1 tvg-name="北京联通",北京联通
+http://222.129.34.61:4022/rtp/239.3.1.129:8008
+#EXTINF:-1 tvg-name="北京联通",北京联通
+http://123.120.8.117:4023/rtp/239.3.1.129:8008
+#EXTINF:-1 tvg-name="北京联通",北京联通
+http://lorinserver.dscloud.me:4023/rtp/239.3.1.129:8008
+#EXTINF:-1 tvg-name="北京联通",北京联通
+http://221.223.23.132:8005/rtp/239.3.1.129:8008
+#EXTINF:-1 tvg-name="北京联通",北京联通
+http://buffalogt.ignorelist.com:8888/rtp/239.3.1.129:8008
+#EXTINF:-1 tvg-name="北京联通",北京联通
+http://lorinchang.dscloud.me:4023/rtp/239.3.1.129:8008
 
 

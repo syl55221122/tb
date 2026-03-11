@@ -61,3 +61,17 @@ http://www.liangcl.top:8686/rtp/233.50.202.100:5140
 http://www.negative.top:50000/rtp/233.50.202.100:5140
 #EXTINF:-1 group-title="其他频道" tvg-name="浙江电信3" tvg-logo="https://live.fanmingming.com/tv/浙江电信3.png",浙江电信3
 http://www.tangtuanpp.fun:4000/rtp/233.50.202.100:5140
+
+
+#EXTINF:-1 tvg-name="北京联通",北京联通
+http://222.129.34.61:4022/rtp/239.3.1.118:8001
+#EXTINF:-1 tvg-name="北京联通",北京联通
+http://123.120.8.117:4023/rtp/239.3.1.118:8001
+#EXTINF:-1 tvg-name="北京联通",北京联通
+http://lorinserver.dscloud.me:4023/rtp/239.3.1.118:8001
+#EXTINF:-1 tvg-name="北京联通",北京联通
+http://221.223.23.132:8005/rtp/239.3.1.118:8001
+#EXTINF:-1 tvg-name="北京联通",北京联通
+http://buffalogt.ignorelist.com:8888/rtp/239.3.1.118:8001
+#EXTINF:-1 tvg-name="北京联通",北京联通
+http://lorinchang.dscloud.me:4023/rtp/239.3.1.118:8001

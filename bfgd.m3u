@@ -1,242 +1,81 @@
 #EXTM3U
-# 生成时间: 2026/3/16 10:30:23
-# 原始行数: 123
 
-#EXTINF:-1 tvg-name="66",66
-http://120.76.248.139/live/bfgd/4200000066.m3u8
-#EXTINF:-1 tvg-name="70",70
-http://120.76.248.139/live/bfgd/4200000070.m3u8
-#EXTINF:-1 tvg-name="59",59
-http://120.76.248.139/live/bfgd/4200000059.m3u8
-#EXTINF:-1 tvg-name="58",58
-http://120.76.248.139/live/bfgd/4200000058.m3u8
-#EXTINF:-1 tvg-name="62",62
-http://120.76.248.139/live/bfgd/4200000062.m3u8
-#EXTINF:-1 tvg-name="76",76
-http://120.76.248.139/live/bfgd/4200000076.m3u8
-#EXTINF:-1 tvg-name="73",73
-http://120.76.248.139/live/bfgd/4200000073.m3u8
-#EXTINF:-1 tvg-name="60",60
-http://120.76.248.139/live/bfgd/4200000060.m3u8
-#EXTINF:-1 tvg-name="75",75
-http://120.76.248.139/live/bfgd/4200000075.m3u8
-#EXTINF:-1 tvg-name="61",61
-http://120.76.248.139/live/bfgd/4200000061.m3u8
-#EXTINF:-1 tvg-name="95",95
+# --- 8K/4K 顶级画质 ---
+#EXTINF:-1,CCTV-8K 超高清
+http://120.76.248.139/live/bfgd/4200000999.m3u8
+#EXTINF:-1,CCTV-4K 超高清
+http://120.76.248.139/live/bfgd/4200000511.m3u8
+#EXTINF:-1,CCTV-16 4K 奥林匹克
+http://120.76.248.139/live/bfgd/4200000520.m3u8
+#EXTINF:-1,辽宁卫视 4K
+http://120.76.248.139/live/bfgd/4200000512.m3u8
+#EXTINF:-1,沈阳新闻 4K
+http://120.76.248.139/live/bfgd/4200000518.m3u8
+
+# --- 央视高清系列 ---
+#EXTINF:-1,CCTV-1 综合高清
 http://120.76.248.139/live/bfgd/4200000095.m3u8
-#EXTINF:-1 tvg-name="132",132
+#EXTINF:-1,CCTV-2 财经高清
 http://120.76.248.139/live/bfgd/4200000132.m3u8
-#EXTINF:-1 tvg-name="86",86
+#EXTINF:-1,CCTV-3 综艺高清
 http://120.76.248.139/live/bfgd/4200000086.m3u8
-#EXTINF:-1 tvg-name="65",65
-http://120.76.248.139/live/bfgd/4200000065.m3u8
-#EXTINF:-1 tvg-name="98",98
+#EXTINF:-1,CCTV-4 中文国际高清
 http://120.76.248.139/live/bfgd/4200000098.m3u8
-#EXTINF:-1 tvg-name="124",124
+#EXTINF:-1,CCTV-5 体育高清
 http://120.76.248.139/live/bfgd/4200000124.m3u8
-#EXTINF:-1 tvg-name="129",129
-http://120.76.248.139/live/bfgd/4200000129.m3u8
-#EXTINF:-1 tvg-name="119",119
-http://120.76.248.139/live/bfgd/4200000119.m3u8
-#EXTINF:-1 tvg-name="71",71
-http://120.76.248.139/live/bfgd/4200000071.m3u8
-#EXTINF:-1 tvg-name="77",77
-http://120.76.248.139/live/bfgd/4200000077.m3u8
-#EXTINF:-1 tvg-name="121",121
-http://120.76.248.139/live/bfgd/4200000121.m3u8
-#EXTINF:-1 tvg-name="93",93
-http://120.76.248.139/live/bfgd/4200000093.m3u8
-#EXTINF:-1 tvg-name="102",102
-http://120.76.248.139/live/bfgd/4200000102.m3u8
-#EXTINF:-1 tvg-name="100",100
-http://120.76.248.139/live/bfgd/4200000100.m3u8
-#EXTINF:-1 tvg-name="103",103
-http://120.76.248.139/live/bfgd/4200000103.m3u8
-#EXTINF:-1 tvg-name="94",94
-http://120.76.248.139/live/bfgd/4200000094.m3u8
-#EXTINF:-1 tvg-name="85",85
-http://120.76.248.139/live/bfgd/4200000085.m3u8
-#EXTINF:-1 tvg-name="176",176
-http://120.76.248.139/live/bfgd/4200000176.m3u8
-#EXTINF:-1 tvg-name="116",116
-http://120.76.248.139/live/bfgd/4200000116.m3u8
-#EXTINF:-1 tvg-name="133",133
-http://120.76.248.139/live/bfgd/4200000133.m3u8
-#EXTINF:-1 tvg-name="130",130
-http://120.76.248.139/live/bfgd/4200000130.m3u8
-#EXTINF:-1 tvg-name="134",134
-http://120.76.248.139/live/bfgd/4200000134.m3u8
-#EXTINF:-1 tvg-name="111",111
-http://120.76.248.139/live/bfgd/4200000111.m3u8
-#EXTINF:-1 tvg-name="151",151
-http://120.76.248.139/live/bfgd/4200000151.m3u8
-#EXTINF:-1 tvg-name="83",83
-http://120.76.248.139/live/bfgd/4200000083.m3u8
-#EXTINF:-1 tvg-name="141",141
-http://120.76.248.139/live/bfgd/4200000141.m3u8
-#EXTINF:-1 tvg-name="135",135
-http://120.76.248.139/live/bfgd/4200000135.m3u8
-#EXTINF:-1 tvg-name="164",164
-http://120.76.248.139/live/bfgd/4200000164.m3u8
-#EXTINF:-1 tvg-name="68",68
-http://120.76.248.139/live/bfgd/4200000068.m3u8
-#EXTINF:-1 tvg-name="166",166
-http://120.76.248.139/live/bfgd/4200000166.m3u8
-#EXTINF:-1 tvg-name="147",147
-http://120.76.248.139/live/bfgd/4200000147.m3u8
-#EXTINF:-1 tvg-name="99",99
-http://120.76.248.139/live/bfgd/4200000099.m3u8
-#EXTINF:-1 tvg-name="168",168
-http://120.76.248.139/live/bfgd/4200000168.m3u8
-#EXTINF:-1 tvg-name="131",131
-http://120.76.248.139/live/bfgd/4200000131.m3u8
-#EXTINF:-1 tvg-name="181",181
-http://120.76.248.139/live/bfgd/4200000181.m3u8
-#EXTINF:-1 tvg-name="162",162
-http://120.76.248.139/live/bfgd/4200000162.m3u8
-#EXTINF:-1 tvg-name="177",177
-http://120.76.248.139/live/bfgd/4200000177.m3u8
-#EXTINF:-1 tvg-name="201",201
-http://120.76.248.139/live/bfgd/4200000201.m3u8
-#EXTINF:-1 tvg-name="187",187
-http://120.76.248.139/live/bfgd/4200000187.m3u8
-#EXTINF:-1 tvg-name="92",92
-http://120.76.248.139/live/bfgd/4200000092.m3u8
-#EXTINF:-1 tvg-name="249",249
-http://120.76.248.139/live/bfgd/4200000249.m3u8
-#EXTINF:-1 tvg-name="110",110
-http://120.76.248.139/live/bfgd/4200000110.m3u8
-#EXTINF:-1 tvg-name="276",276
-http://120.76.248.139/live/bfgd/4200000276.m3u8
-#EXTINF:-1 tvg-name="283",283
-http://120.76.248.139/live/bfgd/4200000283.m3u8
-#EXTINF:-1 tvg-name="109",109
-http://120.76.248.139/live/bfgd/4200000109.m3u8
-#EXTINF:-1 tvg-name="291",291
-http://120.76.248.139/live/bfgd/4200000291.m3u8
-#EXTINF:-1 tvg-name="281",281
-http://120.76.248.139/live/bfgd/4200000281.m3u8
-#EXTINF:-1 tvg-name="118",118
-http://120.76.248.139/live/bfgd/4200000118.m3u8
-#EXTINF:-1 tvg-name="491",491
-http://120.76.248.139/live/bfgd/4200000491.m3u8
-#EXTINF:-1 tvg-name="293",293
-http://120.76.248.139/live/bfgd/4200000293.m3u8
-#EXTINF:-1 tvg-name="101",101
-http://120.76.248.139/live/bfgd/4200000101.m3u8
-#EXTINF:-1 tvg-name="292",292
-http://120.76.248.139/live/bfgd/4200000292.m3u8
-#EXTINF:-1 tvg-name="489",489
-http://120.76.248.139/live/bfgd/4200000489.m3u8
-#EXTINF:-1 tvg-name="635",635
-http://120.76.248.139/live/bfgd/4200000635.m3u8
-#EXTINF:-1 tvg-name="294",294
-http://120.76.248.139/live/bfgd/4200000294.m3u8
-#EXTINF:-1 tvg-name="108",108
-http://120.76.248.139/live/bfgd/4200000108.m3u8
-#EXTINF:-1 tvg-name="279",279
-http://120.76.248.139/live/bfgd/4200000279.m3u8
-#EXTINF:-1 tvg-name="490",490
-http://120.76.248.139/live/bfgd/4200000490.m3u8
-#EXTINF:-1 tvg-name="273",273
-http://120.76.248.139/live/bfgd/4200000273.m3u8
-#EXTINF:-1 tvg-name="296",296
-http://120.76.248.139/live/bfgd/4200000296.m3u8
-#EXTINF:-1 tvg-name="278",278
-http://120.76.248.139/live/bfgd/4200000278.m3u8
-#EXTINF:-1 tvg-name="287",287
-http://120.76.248.139/live/bfgd/4200000287.m3u8
-#EXTINF:-1 tvg-name="288",288
-http://120.76.248.139/live/bfgd/4200000288.m3u8
-#EXTINF:-1 tvg-name="277",277
-http://120.76.248.139/live/bfgd/4200000277.m3u8
-#EXTINF:-1 tvg-name="106",106
-http://120.76.248.139/live/bfgd/4200000106.m3u8
-#EXTINF:-1 tvg-name="284",284
-http://120.76.248.139/live/bfgd/4200000284.m3u8
-#EXTINF:-1 tvg-name="275",275
-http://120.76.248.139/live/bfgd/4200000275.m3u8
-#EXTINF:-1 tvg-name="312",312
-http://120.76.248.139/live/bfgd/4200000312.m3u8
-#EXTINF:-1 tvg-name="290",290
-http://120.76.248.139/live/bfgd/4200000290.m3u8
-#EXTINF:-1 tvg-name="295",295
-http://120.76.248.139/live/bfgd/4200000295.m3u8
-#EXTINF:-1 tvg-name="286",286
-http://120.76.248.139/live/bfgd/4200000286.m3u8
-#EXTINF:-1 tvg-name="274",274
-http://120.76.248.139/live/bfgd/4200000274.m3u8
-#EXTINF:-1 tvg-name="280",280
-http://120.76.248.139/live/bfgd/4200000280.m3u8
-#EXTINF:-1 tvg-name="339",339
-http://120.76.248.139/live/bfgd/4200000339.m3u8
-#EXTINF:-1 tvg-name="350",350
-http://120.76.248.139/live/bfgd/4200000350.m3u8
-#EXTINF:-1 tvg-name="107",107
-http://120.76.248.139/live/bfgd/4200000107.m3u8
-#EXTINF:-1 tvg-name="650",650
-http://120.76.248.139/live/bfgd/4200000650.m3u8
-#EXTINF:-1 tvg-name="127",127
-http://120.76.248.139/live/bfgd/4200000127.m3u8
-#EXTINF:-1 tvg-name="150",150
-http://120.76.248.139/live/bfgd/4200000150.m3u8
-#EXTINF:-1 tvg-name="297",297
-http://120.76.248.139/live/bfgd/4200000297.m3u8
-#EXTINF:-1 tvg-name="158",158
-http://120.76.248.139/live/bfgd/4200000158.m3u8
-#EXTINF:-1 tvg-name="96",96
-http://120.76.248.139/live/bfgd/4200000096.m3u8
-#EXTINF:-1 tvg-name="128",128
+#EXTINF:-1,CCTV-5+ 体育赛事高清
 http://120.76.248.139/live/bfgd/4200000128.m3u8
-#EXTINF:-1 tvg-name="112",112
-http://120.76.248.139/live/bfgd/4200000112.m3u8
-#EXTINF:-1 tvg-name="229",229
-http://120.76.248.139/live/bfgd/4200000229.m3u8
-#EXTINF:-1 tvg-name="482",482
-http://120.76.248.139/live/bfgd/4200000482.m3u8
-#EXTINF:-1 tvg-name="204",204
-http://120.76.248.139/live/bfgd/4200000204.m3u8
-#EXTINF:-1 tvg-name="122",122
-http://120.76.248.139/live/bfgd/4200000122.m3u8
-#EXTINF:-1 tvg-name="180",180
-http://120.76.248.139/live/bfgd/4200000180.m3u8
-#EXTINF:-1 tvg-name="225",225
-http://120.76.248.139/live/bfgd/4200000225.m3u8
-#EXTINF:-1 tvg-name="169",169
-http://120.76.248.139/live/bfgd/4200000169.m3u8
-#EXTINF:-1 tvg-name="224",224
-http://120.76.248.139/live/bfgd/4200000224.m3u8
-#EXTINF:-1 tvg-name="185",185
-http://120.76.248.139/live/bfgd/4200000185.m3u8
-#EXTINF:-1 tvg-name="298",298
-http://120.76.248.139/live/bfgd/4200000298.m3u8
-#EXTINF:-1 tvg-name="289",289
-http://120.76.248.139/live/bfgd/4200000289.m3u8
-#EXTINF:-1 tvg-name="307",307
-http://120.76.248.139/live/bfgd/4200000307.m3u8
-#EXTINF:-1 tvg-name="308",308
-http://120.76.248.139/live/bfgd/4200000308.m3u8
-#EXTINF:-1 tvg-name="282",282
-http://120.76.248.139/live/bfgd/4200000282.m3u8
-#EXTINF:-1 tvg-name="63",63
-http://120.76.248.139/live/bfgd/4200000063.m3u8
-#EXTINF:-1 tvg-name="246",246
-http://120.76.248.139/live/bfgd/4200000246.m3u8
-#EXTINF:-1 tvg-name="492",492
-http://120.76.248.139/live/bfgd/4200000492.m3u8
-#EXTINF:-1 tvg-name="228",228
-http://120.76.248.139/live/bfgd/4200000228.m3u8
-#EXTINF:-1 tvg-name="306",306
+#EXTINF:-1,CCTV-6 电影高清
+http://120.76.248.139/live/bfgd/4200000129.m3u8
+#EXTINF:-1,CCTV-7 国防军事高清
+http://120.76.248.139/live/bfgd/4200000119.m3u8
+#EXTINF:-1,CCTV-8 电视剧高清
+http://120.76.248.139/live/bfgd/4200000121.m3u8
+#EXTINF:-1,CCTV-9 纪录高清
+http://120.76.248.139/live/bfgd/4200000093.m3u8
+#EXTINF:-1,CCTV-10 科教高清
+http://120.76.248.139/live/bfgd/4200000102.m3u8
+#EXTINF:-1,CCTV-12 社会与法高清
+http://120.76.248.139/live/bfgd/4200000103.m3u8
+#EXTINF:-1,CCTV-13 新闻高清
+http://120.76.248.139/live/bfgd/4200000094.m3u8
+#EXTINF:-1,CCTV-14 少儿高清
+http://120.76.248.139/live/bfgd/4200000085.m3u8
+#EXTINF:-1,CCTV-15 音乐高清
+http://120.76.248.139/live/bfgd/4200000127.m3u8
+#EXTINF:-1,CCTV-17 农业农村高清
+http://120.76.248.139/live/bfgd/4200000116.m3u8
+
+# --- 卫视高清系列 ---
+#EXTINF:-1,浙江卫视高清
+http://120.76.248.139/live/bfgd/4200000111.m3u8
+#EXTINF:-1,湖南卫视高清
+http://120.76.248.139/live/bfgd/4200000151.m3u8
+#EXTINF:-1,江苏卫视高清
+http://120.76.248.139/live/bfgd/4200000150.m3u8
+#EXTINF:-1,东方卫视高清
+http://120.76.248.139/live/bfgd/4200000130.m3u8
+#EXTINF:-1,北京卫视高清
+http://120.76.248.139/live/bfgd/4200000133.m3u8
+#EXTINF:-1,广东卫视高清
+http://120.76.248.139/live/bfgd/4200000083.m3u8
+#EXTINF:-1,山东卫视高清
+http://120.76.248.139/live/bfgd/4200000158.m3u8
+#EXTINF:-1,深圳卫视高清
+http://120.76.248.139/live/bfgd/4200000166.m3u8
+#EXTINF:-1,湖北卫视高清
+http://120.76.248.139/live/bfgd/4200000147.m3u8
+#EXTINF:-1,天津卫视高清
+http://120.76.248.139/live/bfgd/4200000164.m3u8
+#EXTINF:-1,安徽卫视高清
+http://120.76.248.139/live/bfgd/4200000141.m3u8
+#EXTINF:-1,黑龙江卫视高清
+http://120.76.248.139/live/bfgd/4200000099.m3u8
+
+# --- 地方高清系列 ---
+#EXTINF:-1,辽宁卫视高清
+http://120.76.248.139/live/bfgd/4200000066.m3u8
+#EXTINF:-1,沈阳新闻高清
+http://120.76.248.139/live/bfgd/4200000071.m3u8
+#EXTINF:-1,盘锦新闻高清
 http://120.76.248.139/live/bfgd/4200000306.m3u8
-#EXTINF:-1 tvg-name="309",309
-http://120.76.248.139/live/bfgd/4200000309.m3u8
-#EXTINF:-1 tvg-name="67",67
-http://120.76.248.139/live/bfgd/4200000067.m3u8
-#EXTINF:-1 tvg-name="113",113
-http://120.76.248.139/live/bfgd/4200000113.m3u8
-#EXTINF:-1 tvg-name="97",97
-http://120.76.248.139/live/bfgd/4200000097.m3u8
-#EXTINF:-1 tvg-name="84",84
-http://120.76.248.139/live/bfgd/4200000084.m3u8
-#EXTINF:-1 tvg-name="64",64
-http://120.76.248.139/live/bfgd/4200000064.m3u8

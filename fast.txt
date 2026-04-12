@@ -1,3 +1,16 @@
+vless://b981c2d3-f067-4aa5-8305-6aefc28b8f52@aws-link7.liangxin1.xyz:48574?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.lamer.com.sg&fp=chrome&pbk=lmxSayN8tUg2Dag2MPXrdqZ2SQK9K3OjlaKk8wVCRnc&sid=f8f18902&type=tcp&headerType=none#L-SG-01-BGP
+vless://b981c2d3-f067-4aa5-8305-6aefc28b8f52@aws-link8.liangxin1.xyz:39645?encryption=none&flow=xtls-rprx-vision&security=reality&sni=iosapps.itunes.apple.com&fp=chrome&pbk=x7VqpFP7_PrY4ebNw8hi8Ec5Tm5Upmt5JOdrN1M9VnQ&sid=2b3b0b93&type=tcp&headerType=none#L-SG-02-BGP
+vless://b981c2d3-f067-4aa5-8305-6aefc28b8f52@aws-link9.liangxin1.xyz:23587?encryption=none&flow=xtls-rprx-vision&security=reality&sni=iosapps.itunes.apple.com&fp=chrome&pbk=H66PLLf6HkZwHk4oFqisfTawIvw2cxkEwk8Ue8sHZgA&sid=19b580ae&type=tcp&headerType=none#L-SG-03-BGP
+vless://b981c2d3-f067-4aa5-8305-6aefc28b8f52@aws-link25.liangxin1.xyz:34578?encryption=none&flow=xtls-rprx-vision&security=reality&sni=download-porter.hoyoverse.com&fp=chrome&pbk=PSn2s5TN4e7n0LkzPunu2IA1hSmOoPYFu3d_psl2Nmc&sid=e534c8be&type=tcp&headerType=none#L-KR-01-BGP
+vless://b981c2d3-f067-4aa5-8305-6aefc28b8f52@aws-link15.liangxin1.xyz:35457?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.apple.com.cn&fp=chrome&pbk=3gb-aG6qLCJpEOFrEPZ9qKqLvVPA_ovlu0X1PvjcE0k&sid=05288db3&type=tcp&headerType=none#L-JP-03-BGP
+vless://b981c2d3-f067-4aa5-8305-6aefc28b8f52@cfyes.lxy1015.top:443?encryption=none&security=tls&sni=lxs1jp.lxy1015.top&fp=chrome&type=ws&host=lx-1jp.lxy1015.top&path=%2Fliangxin%2Fjp1#L-JP-04-BGP
+vless://b981c2d3-f067-4aa5-8305-6aefc28b8f52@aws-link27.liangxin1.xyz:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=download-porter.hoyoverse.com&fp=chrome&pbk=a9I2uA3NNZA6uBAe3Tui9vZ8CG5MrMaYOifWrAdc0zg&sid=a8609be8&type=tcp&headerType=none#L-TW-01-BGP
+hysteria2://b981c2d3-f067-4aa5-8305-6aefc28b8f52@aws-linkhy21.liangxin1.xyz:60000/?sni=bilibili-kr.biliimg.com&insecure=1#L-KR-HY01
+hysteria2://b981c2d3-f067-4aa5-8305-6aefc28b8f52@aws-linkhy1.liangxin1.xyz:60000/?sni=iosapps.itunes.apple.com&insecure=1#L-HK-HY01
+hysteria2://b981c2d3-f067-4aa5-8305-6aefc28b8f52@aws-linkhy2.liangxin1.xyz:60000/?sni=iosapps.itunes.apple.com&insecure=1#L-HK-HY02
+hysteria2://b981c2d3-f067-4aa5-8305-6aefc28b8f52@aws-linkhy10.liangxin1.xyz:60000/?sni=iosapps.itunes.apple.com&insecure=1#L-SG-HY02
+hysteria2://b981c2d3-f067-4aa5-8305-6aefc28b8f52@aws-linkhy11.liangxin1.xyz:60000/?sni=iosapps.itunes.apple.com&insecure=1#L-SG-HY03
+hysteria2://b981c2d3-f067-4aa5-8305-6aefc28b8f52@aws-linkhy27.liangxin1.xyz:60000/?sni=www.apple.com&insecure=1#L-US-HY02
 trojan://a85a67c0-132c-485f-8868-55f6ff5f6e85@141.193.213.107:443?security=tls&sni=light.bpsg2026.top&type=ws&host=light.bpsg2026.top&path=%2Fimages#%20
 trojan://b884f1a7-9408-4fa6-8198-58e9cef8b117@141.193.213.107:443?security=tls&sni=light.bpsg2026.top&type=ws&host=light.bpsg2026.top&path=%2Fimages#UPDATE-0412-E
 trojan://b884f1a7-9408-4fa6-8198-58e9cef8b117@23.227.38.72:443?security=tls&sni=light.bpsg2026.top&type=ws&host=light.bpsg2026.top&path=%2Fimages#BP-SG-01

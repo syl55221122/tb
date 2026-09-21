@@ -60,6 +60,7 @@ hysteria2://f11c022c-285f-4e02-b817-1256b8f464c5@[2001:41d0:701:1100::64a2]:5021
 hysteria2://f11c022c-285f-4e02-b817-1256b8f464c5@[2001:41d0:305:2100::3967]:5021?sni=d1--cn-gotcha204-4.bilivideo.com&insecure=1&allowInsecure=1#SM-FR1%2FAI%2F%EC%B9%B4%ED%86%A1
 hysteria2://26e8b893-7739-40cd-bbbb-a3260ab95e3a@ff.xxxyun.top:22002?sni=atlhk2.jueduibupao.top&insecure=0&allowInsecure=0#NP-HK1%2FAI
 hysteria2://26e8b893-7739-40cd-bbbb-a3260ab95e3a@ff.xxxyun.top:22003?sni=atlsg1.jueduibupao.top&insecure=0&allowInsecure=0#NP-SG1%2FAI
+vless://54113916-4397-4b04-adc9-08cbeb01e06c@unamecf3.xn--ghqu5fm27b67w.com:443?encryption=none&security=tls&sni=usa1s.xn--ghqu5fm27b67w.com&fp=chrome&insecure=0&allowInsecure=0&type=ws&host=usa1s.xn--ghqu5fm27b67w.com&path=%2Fpq%2Fus1#%3CCancel%3E
 anytls://26e8b893-7739-40cd-bbbb-a3260ab95e3a@dafeizhu.xxxyun.top:55014?security=tls&sni=atlkr1.jueduibupao.top&insecure=0&allowInsecure=0&type=tcp&headerType=none#NP-KR1%2FAI%3CTest%3E
 trojan://3e01db61-2346-4fde-a94e-99a0bb70b679@hk1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net:443?security=tls&sni=8b1c7c70-ecf1-6891-9fa7-68a86662f902.cheathub.net&insecure=1&allowInsecure=1&type=tcp&headerType=none#%F0%9F%94%84UPDATE-0921%20CD
 vless://2ac8c744-8cf5-42fd-82ec-63abdfb463c8@156.224.77.11:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.apple.com.cn&fp=chrome&pbk=g_DYdbGlM0pZlLgQRPkUHzZU_4yVUpaiHEtZV-d8O1w&sid=14bbd709&type=tcp&headerType=none#A-HK5%2FAI%2F%EC%B9%B4%ED%86%A1

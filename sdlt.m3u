@@ -10,7 +10,10 @@
 #    rtsp://...${(b)yyyyMMddHHmmss:utc}...${(e)yyyyMMddHHmmss:utc}...
 #    -> http://www.limingzi.com:7088/rtsp/...${(b)yyyyMMddHHmmss}...${(e)yyyyMMddHHmmss}...&r2h-seek-offset=-28800
 # 6. 直播源: 192.168.0.1 -> 192.168.100.1
-
+#EXTINF:-1 group-title="体育频道",辽宁体育
+http://101.wifi98.com:9005/rtp/232.0.0.164:1234
+#EXTINF:-1 group-title="体育频道",辽宁体育
+http://itv.ghwxhouse.com:8089/rtp/232.0.0.164:1234
 #EXTINF:-1 tvg-name="CCTV1" group-title="央视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/CCTV1.png" , CCTV1
 http://www.limingzi.com:7088/rtp/239.253.246.77:8000?fcc=124.132.240.66:15970
 #EXTINF:-1 tvg-name="山东卫视" group-title="央视频道" tvg-logo="https://fastly.jsdelivr.net/gh/plsy1/iptv@master/logo/山东卫视.png" , 山东卫视

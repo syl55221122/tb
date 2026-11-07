@@ -8,6 +8,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 INPUT_FILE = 'v2.txt'
+OUTPUT_FILE = 'v2-top30.txt'  # 测速精选版单独输出，不覆盖 v2.txt 的完整合并列表
 TOP_NODES = 30
 CONCURRENCY = 200
 
@@ -115,7 +116,7 @@ def load_nodes() -> List[Tuple[str, str, str]]:
 
 def save_top_nodes(results: List[Tuple[str, Optional[float], str]]):
     sorted_results = sorted(results, key=lambda x: x[1] if x[1] is not None else float('inf'))
-    with open(INPUT_FILE, 'w', encoding='utf-8') as f:
+    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         for idx, (line, latency, location) in enumerate(sorted_results[:TOP_NODES], 1):
             tag = f"{int(round(latency))}ms" if latency is not None else "timeout"
             new_name = f"{idx:02d}_{location}_{tag}"

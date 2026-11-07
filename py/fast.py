@@ -52,7 +52,7 @@ def decode_node_text(raw_text):
         text = dec
     return text if "://" in text else ""
 
-def get_latest_repos(n=60):
+def get_latest_repos(n=200):
     """
     直接让 GitHub API 按更新时间倒序，只取前 n 个仓库，不再全量拉取再排序。
     """
@@ -166,8 +166,10 @@ def main():
     all_nodes = []
     seen = set()
 
-    # 源 1：socks-tjzjtm 组织（双层 base64），取最新 60 个仓
-    repos = get_latest_repos(60)  # 这里可以改成任意数量
+    # 源 1：socks-tjzjtm 组织（双层 base64），取最新 200 个仓
+    # 2026-11-07 用户令放宽到 200：最新 60 仓是同一快照（组织部分仅 66 条），
+    # 取 200 可拿到 3–4 代快照，去重后组织部分约 150–200 条；fast-top 仍只留最快前 100 条。
+    repos = get_latest_repos(200)  # 这里可以改成任意数量
     collect_from_repos(repos, ORG, all_nodes, seen)
 
     # 源 2：leejeeooo 个人仓库（单层 base64，同运营者、同一节点池）

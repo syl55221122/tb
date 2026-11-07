@@ -26,8 +26,8 @@ jobs:
       - name: Step 1 - Merge proxies to v2.txt
         run: python py/step1_merge_proxies.py
 
-#      - name: Step 2 - Merge proxies to v2.txt
-#        run: python py/step2_test_v2_nodes.py
+      - name: Step 2 - Test nodes, write top 30 to v2-top30.txt
+        run: python py/step2_test_v2_nodes.py
         
       - name: Commit changes
         run: |
@@ -36,8 +36,8 @@ jobs:
 
           # 检查是否有变更
           if ! git diff --quiet; then
-            git add v2.txt
-            git commit -m "Update v2.txt"
+            git add v2.txt v2-top30.txt
+            git commit -m "Update v2.txt and v2-top30.txt"
             git push
           else
             echo "No changes to commit or push."

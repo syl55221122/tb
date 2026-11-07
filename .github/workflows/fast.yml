@@ -32,6 +32,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add fast.txt
-          git commit -m "Update fast.txt with latest decoded nodes" || echo "No changes to commit"
+          git add fast.txt fast-top.txt
+          git commit -m "Update fast.txt and fast-top.txt with latest decoded nodes" || echo "No changes to commit"
           git push

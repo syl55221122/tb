@@ -1,3 +1,4 @@
+import asyncio
 import os
 import base64
 import json
@@ -5,37 +6,34 @@ import re
 import requests
 from urllib.parse import urlparse
 
+# 复用 step2 的测速与归属地查询（同一目录下）
+from step2_test_v2_nodes import measure_connect_latency_ms, get_ip_country
+
 ORG = "socks-tjzjtm"
 API_URL = f"https://api.github.com/orgs/{ORG}/repos"
 HEADERS = {
     "Accept": "application/vnd.github+json",
     "Authorization": f"Bearer {os.getenv('GITHUB_TOKEN')}"
 }
+TOP_NODES = 100
+CONCURRENCY = 200
 
-def get_all_repos():
-    """
-    分页获取组织的所有仓库，直到没有更多。
-    """
-    repos = []
-    page = 1
-    while True:
-        resp = requests.get(API_URL, headers=HEADERS,
-                            params={"per_page": 100, "page": page})
-        resp.raise_for_status()
-        batch = resp.json()
-        if not batch:
-            break
-        repos.extend(batch)
-        page += 1
-    return repos
+def _b64decode(s):
+    """base64 解码，自动补 padding，失败返回空串。"""
+    try:
+        return base64.b64decode(s + "=" * (-len(s) % 4)).decode("utf-8", errors="ignore")
+    except Exception:
+        return ""
 
 def get_latest_repos(n=60):
     """
-    获取最新更新的 n 个仓库。
+    直接让 GitHub API 按更新时间倒序，只取前 n 个仓库，不再全量拉取再排序。
     """
-    repos = get_all_repos()
-    # 按更新时间排序
-    repos.sort(key=lambda r: r["updated_at"], reverse=True)
+    resp = requests.get(API_URL, headers=HEADERS,
+                        params={"sort": "updated", "direction": "desc",
+                                "per_page": n, "page": 1})
+    resp.raise_for_status()
+    repos = resp.json()
     names = [repo["name"] for repo in repos[:n]]
     print(f"Latest {len(names)} repos: {', '.join(names)}")
     return names
@@ -78,34 +76,107 @@ def get_repo_file_inner_text(repo):
         print(f"  ERROR: {repo} inner base64 decode failed: {e}")
         return ""
 
-def extract_node_name(node_str):
+def node_identity(node_str):
     """
-    提取节点名称用于去重。
+    按服务器身份去重：(协议, 地址, 端口, 凭证)。
+    同名不同服务器不再误删，同一服务器换个名字也不再重复。
+    解析失败时返回整条节点字符串（当作唯一）。
     """
     try:
-        if node_str.startswith("vmess://"):
-            payload = node_str[len("vmess://"):]
-            decoded_json = base64.b64decode(payload).decode("utf-8", errors="ignore")
-            data = json.loads(decoded_json)
-            return data.get("ps", node_str)
-        else:
-            parsed = urlparse(node_str)
-            if parsed.fragment:
-                return parsed.fragment.strip()
-            host = parsed.hostname or ""
-            if host:
-                return host.strip()
-            m = re.search(r"#(.+)$", node_str)
-            if m:
-                return m.group(1).strip()
+        low = node_str.lower()
+        if low.startswith("vmess://"):
+            payload = node_str[len("vmess://"):].split("#", 1)[0].split("?", 1)[0]
+            data = json.loads(_b64decode(payload))
+            return ("vmess", str(data.get("add", "")).lower(),
+                    str(data.get("port", "")), str(data.get("id", "")))
+        if low.startswith("ss://"):
+            rest = node_str[len("ss://"):].split("#", 1)[0]
+            if "@" in rest:
+                userinfo, _, hostport = rest.rpartition("@")
+                raw = _b64decode(userinfo)
+                pwd = raw.split(":", 1)[-1] if ":" in raw else raw
+                host, _, port = hostport.rpartition(":")
+                return ("ss", host.lower(), port, pwd)
+            raw = _b64decode(rest)
+            if "@" in raw:
+                cred, _, hp = raw.rpartition("@")
+                host, _, port = hp.rpartition(":")
+                pwd = cred.split(":", 1)[-1] if ":" in cred else cred
+                return ("ss", host.lower(), port, pwd)
             return node_str
+        parsed = urlparse(node_str)
+        proto = parsed.scheme.lower()
+        host = (parsed.hostname or "").lower()
+        port = str(parsed.port or "")
+        if proto == "vless":
+            return ("vless", host, port, parsed.username or "")
+        if proto == "trojan":
+            # trojan 密码在 @ 前面的 username 位置
+            return ("trojan", host, port, parsed.username or "")
+        return node_str
     except Exception:
         return node_str
+
+def extract_host_port(node_str):
+    """从节点链接里提取 (host, port)，供测速用；解析失败返回 (None, None)。"""
+    try:
+        low = node_str.lower()
+        if low.startswith("vmess://"):
+            payload = node_str[len("vmess://"):].split("#", 1)[0].split("?", 1)[0]
+            data = json.loads(_b64decode(payload))
+            return str(data.get("add", "")), int(data.get("port") or 443)
+        if low.startswith("ss://"):
+            rest = node_str[len("ss://"):].split("#", 1)[0]
+            if "@" in rest:
+                _, _, hostport = rest.rpartition("@")
+                host, _, port = hostport.rpartition(":")
+                return host, int(port or 443)
+            raw = _b64decode(rest)
+            if "@" in raw:
+                _, _, hp = raw.rpartition("@")
+                host, _, port = hp.rpartition(":")
+                return host, int(port or 443)
+            return None, None
+        parsed = urlparse(node_str)
+        host = parsed.hostname
+        if not host:
+            return None, None
+        return host, int(parsed.port or 443)
+    except Exception:
+        return None, None
+
+async def test_and_write_top(nodes):
+    """测速并把最快 TOP_NODES 条写进 fast-top.txt（带国家与延迟重命名）。"""
+    sem = asyncio.Semaphore(CONCURRENCY)
+    results = []
+
+    async def probe(line):
+        async with sem:
+            host, port = extract_host_port(line)
+            if not host:
+                results.append((line, None, "未知"))
+                return
+            latency = await measure_connect_latency_ms(host, port=port)
+            location = get_ip_country(host)
+            results.append((line, latency, location))
+
+    await asyncio.gather(*[probe(n) for n in nodes])
+    results.sort(key=lambda x: x[1] if x[1] is not None else float("inf"))
+    with open("fast-top.txt", "w", encoding="utf-8") as f:
+        for idx, (line, latency, location) in enumerate(results[:TOP_NODES], 1):
+            tag = f"{int(round(latency))}ms" if latency is not None else "timeout"
+            new_name = f"{idx:02d}_{location}_{tag}"
+            if "#" in line:
+                line = re.sub(r"#.*$", f"#{new_name}", line)
+            else:
+                line += f"#{new_name}"
+            f.write(line + "\n")
+    print(f"fast-top.txt updated: {min(len(results), TOP_NODES)} nodes.")
 
 def main():
     repos = get_latest_repos(60)  # 这里可以改成任意数量
     all_nodes = []
-    seen_names = set()
+    seen = set()
 
     for repo in repos:
         print(f"Processing repository: {repo}")
@@ -118,9 +189,9 @@ def main():
 
         added = 0
         for node in lines:
-            name = extract_node_name(node)
-            if name not in seen_names:
-                seen_names.add(name)
+            key = node_identity(node)
+            if key not in seen:
+                seen.add(key)
                 all_nodes.append(node)
                 added += 1
         print(f"  Unique nodes added from {repo}: {added}")
@@ -132,6 +203,10 @@ def main():
             f.write(node + "\n")
 
     print("fast.txt updated successfully.")
+
+    # 测速精选版单独输出，不覆盖 fast.txt 的完整合并列表
+    if all_nodes:
+        asyncio.run(test_and_write_top(all_nodes))
 
 if __name__ == "__main__":
     main()

@@ -168,7 +168,7 @@ def main():
 
     # 源 1：socks-tjzjtm 组织（双层 base64），取最新 200 个仓
     # 2026-11-07 用户令放宽到 200：最新 60 仓是同一快照（组织部分仅 66 条），
-    # 取 200 可拿到 3–4 代快照，去重后组织部分约 150–200 条；E2 测速已取消，不再生成 fast-top.txt。
+    # 取 200 可拿到 3–4 代快照，去重后组织部分约 150–200 条；E2 测速已恢复，fast-top 不限条数，全部存活节点按速度排。
     repos = get_latest_repos(200)  # 这里可以改成任意数量
     collect_from_repos(repos, ORG, all_nodes, seen)
 

@@ -28,25 +28,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python py/fast.py
 
-      - name: E2 link speed test, write top 100 to fast-top.txt
-        env:
-          E2_SSH_KEY: ${{ secrets.E2_SSH_KEY }}
-        run: |
-          # E2（新加坡）上用 sing-box 真实链路测速：真的走节点去下载，比 TCP 延迟准
-          mkdir -p ~/.ssh
-          printf '%s\n' "$E2_SSH_KEY" > ~/.ssh/e2_key
-          chmod 600 ~/.ssh/e2_key
-          ssh-keyscan -H 149.118.35.233 >> ~/.ssh/known_hosts 2>/dev/null
-          scp -i ~/.ssh/e2_key -o StrictHostKeyChecking=no fast.txt ubuntu@149.118.35.233:/home/ubuntu/tb-speedtest/in-fast.txt
-          ssh -i ~/.ssh/e2_key -o StrictHostKeyChecking=no ubuntu@149.118.35.233 "cd /home/ubuntu/tb-speedtest && python3 test_nodes.py in-fast.txt out-fast-top.txt 100 1000000"
-          scp -i ~/.ssh/e2_key -o StrictHostKeyChecking=no ubuntu@149.118.35.233:/home/ubuntu/tb-speedtest/out-fast-top.txt fast-top.txt
-          # E2 上没有存活节点时也保证文件存在（空文件），避免提交步骤报错
-          touch fast-top.txt
-
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add fast.txt fast-top.txt
-          git commit -m "Update fast.txt and fast-top.txt with latest decoded nodes" || echo "No changes to commit"
+          git add fast.txt
+          git commit -m "Update fast.txt with latest decoded nodes" || echo "No changes to commit"
           git push

@@ -38,7 +38,11 @@ jobs:
           chmod 600 ~/.ssh/e2_key
           ssh-keyscan -H 149.118.35.233 >> ~/.ssh/known_hosts 2>/dev/null
           scp -i ~/.ssh/e2_key -o StrictHostKeyChecking=no fast.txt ubuntu@149.118.35.233:/home/ubuntu/tb-speedtest/in-fast.txt
-          ssh -i ~/.ssh/e2_key -o StrictHostKeyChecking=no ubuntu@149.118.35.233 "cd /home/ubuntu/tb-speedtest && python3 test_nodes.py in-fast.txt out-fast-top.txt 0 1000000"
+          # 2026-11-08 修：GitHub runner 经 Azure 出站，TCP 空闲 4 分钟即被掐；
+          # test_nodes.py 经 SSH 管道输出时 Python 会块缓冲，几分钟无流量就触发
+          # "Connection reset by peer"（exit 255）。-u 强制逐行输出 + ServerAliveInterval
+          # 每 15 秒保活，两处一起堵死空闲超时。
+          ssh -i ~/.ssh/e2_key -o StrictHostKeyChecking=no -o ServerAliveInterval=15 -o ServerAliveCountMax=3 ubuntu@149.118.35.233 "cd /home/ubuntu/tb-speedtest && python3 -u test_nodes.py in-fast.txt out-fast-top.txt 0 1000000"
           scp -i ~/.ssh/e2_key -o StrictHostKeyChecking=no ubuntu@149.118.35.233:/home/ubuntu/tb-speedtest/out-fast-top.txt fast-top.txt
           # E2 上没有存活节点时也保证文件存在（空文件），避免提交步骤报错
           touch fast-top.txt

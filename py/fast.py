@@ -19,7 +19,7 @@ LEEJEOOOO_USER = "leejeeooo"
 LEEJEOOOO_REPOS = [
     "he-izijijiliijl-",  # 81 条 vless（2026-11-07 实测）
     "dsizlijeilz",       # 2 条 vless
-    "kl-iioapaal",       # 35 条 vless
+    # "kl-iioapaal",     # 2026-11-24 已 404（仓库已删/改名），先停用；如恢复再取消注释
     "F3fl-rpi9ol",       # 8 条 vmess
 ]
 
@@ -73,8 +73,16 @@ def get_repo_file_inner_text(repo, owner=ORG):
     decode_node_text 自动兼容两种，返回节点明文。
     """
     contents_url = f"https://api.github.com/repos/{owner}/{repo}/contents"
-    resp = requests.get(contents_url, headers=HEADERS)
-    resp.raise_for_status()
+    try:
+        resp = requests.get(contents_url, headers=HEADERS)
+        resp.raise_for_status()
+    except requests.exceptions.HTTPError as e:
+        # 单个仓库 404/无权限不该拖垮整轮收集：记一条警告，跳过该仓。
+        print(f"  WARN: {owner}/{repo} fetch failed ({e}), skipped.")
+        return ""
+    except requests.exceptions.RequestException as e:
+        print(f"  WARN: {owner}/{repo} request error ({e}), skipped.")
+        return ""
     files = resp.json()
 
     if not isinstance(files, list) or len(files) < 1:
@@ -144,7 +152,12 @@ def collect_from_repos(repos, owner, all_nodes, seen):
     added_total = 0
     for repo in repos:
         print(f"Processing repository: {owner}/{repo}")
-        inner_text = get_repo_file_inner_text(repo, owner=owner)
+        try:
+            inner_text = get_repo_file_inner_text(repo, owner=owner)
+        except Exception as e:
+            # 兜底：单个仓库任何异常都不中断整轮，只跳过该仓。
+            print(f"  WARN: {owner}/{repo} error ({e}), skipped.")
+            continue
         if not inner_text:
             continue
 
